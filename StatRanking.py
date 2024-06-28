@@ -2,9 +2,9 @@ import requests
 import pandas as pd
 
 # Define the URLs for the APIs
-batting_url = "https://stats-community.cricket.com.au/api/getBattingStats?grade_id=faac1044-0ab6-4ffa-875f-c3474c909a9a&options_type="
-bowling_url = "https://stats-community.cricket.com.au/api/getBowlingStats?grade_id=faac1044-0ab6-4ffa-875f-c3474c909a9a&options_type="
-fielding_url = "https://stats-community.cricket.com.au/api/getFieldingStats?grade_id=faac1044-0ab6-4ffa-875f-c3474c909a9a&options_type="
+batting_url = "https://stats-community.cricket.com.au/api/getBattingStats?grade_id=faac1044-0ab6-4ffa-875f-c3474c909a9a&options_type=false"
+bowling_url = "https://stats-community.cricket.com.au/api/getBowlingStats?grade_id=faac1044-0ab6-4ffa-875f-c3474c909a9a&options_type=false"
+fielding_url = "https://stats-community.cricket.com.au/api/getFieldingStats?grade_id=faac1044-0ab6-4ffa-875f-c3474c909a9a&options_type=false"
 
 # Fetch the data
 batting_data = requests.get(batting_url).json()
@@ -14,6 +14,7 @@ fielding_data = requests.get(fielding_url).json()
 # # Extract the relevant statistics and create DataFrames
 batting_stats = [{'player_id': player['Id'], 'player_name': player['Name'], 
                   'BattingAggregate': player['Statistics']['BattingAggregate'], 
+                  'PlayerClub': player['Organisation']['Name'], 
                   'BattingNotOuts': player['Statistics']['BattingNotOuts'], 
                   'Batting50s': player['Statistics']['Batting50s'], 
                   'Batting100s': player['Statistics']['Batting100s']} for player in batting_data]
@@ -67,6 +68,8 @@ combined_df['rank'] = combined_df['combined_score'].rank(ascending=False)
 # Sort the DataFrame by the rank
 sorted_df = combined_df.sort_values(by='rank')
 
+# tell panda to print all rows
+pd.set_option('display.max_rows', None)
 # Display the sorted DataFrame
-print(sorted_df[['player_id', 'player_name', 'BattingAggregate', 'BattingNotOuts', 'Batting50s', 'Batting100s', 'BowlingWickets', 'BowlingMaidens', 'Bowling5WIs', 'FieldingTotalCatches', 'FieldingStumpings', 'combined_score', 'rank']])
+print(sorted_df[['player_id', 'player_name', 'PlayerClub', 'BattingAggregate', 'BattingNotOuts', 'Batting50s', 'Batting100s', 'BowlingWickets', 'BowlingMaidens', 'Bowling5WIs', 'FieldingTotalCatches', 'FieldingStumpings', 'combined_score', 'rank']])
 
