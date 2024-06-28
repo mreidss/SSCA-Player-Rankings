@@ -12,17 +12,19 @@ bowling_data = requests.get(bowling_url).json()
 fielding_data = requests.get(fielding_url).json()
 
 # # Extract the relevant statistics and create DataFrames
-batting_stats = [{'player_id': player['Id'], 'player_name': player['Name'], 'BattingAggregate': player['Statistics']['BattingAggregate'], 'BattingNotOuts': player['Statistics']['BattingNotOuts'], 'Batting50s': player['Statistics']['Batting50s'], 'Batting100s': player['Statistics']['Batting100s']} for player in batting_data]
-# batting_stats = [{'player_id': player['Id'], 'player_name': player['Name'], 'BattingNotOuts': player['Statistics']['BattingNotOuts']} for player in batting_data]
-# batting_stats = [{'player_id': player['Id'], 'player_name': player['Name'], 'Batting50s': player['Statistics']['Batting50s']} for player in batting_data]
-# batting_stats = [{'player_id': player['Id'], 'player_name': player['Name'], 'Batting100s': player['Statistics']['Batting100s']} for player in batting_data]
-bowling_stats = [{'player_id': player['Id'], 'player_name': player['Name'], 'BowlingWickets': player['Statistics']['BowlingWickets'], 'BowlingMaidens': player['Statistics']['BowlingMaidens'], 'Bowling5WIs': player['Statistics']['Bowling5WIs']} for player in bowling_data]
-# bowling_stats = [{'player_id': player['Id'], 'player_name': player['Name'], 'BowlingMaidens': player['Statistics']['BowlingMaidens']} for player in bowling_data]
-# bowling_stats = [{'player_id': player['Id'], 'player_name': player['Name'], 'Bowling5WIs': player['Statistics']['Bowling5WIs']} for player in bowling_data]
-fielding_stats = [{'player_id': player['Id'], 'player_name': player['Name'], 'FieldingTotalCatches': player['Statistics']['FieldingTotalCatches'], 'FieldingRunOuts': player['Statistics']['FieldingRunOuts'], 'FieldingStumpings': player['Statistics']['FieldingStumpings']} for player in fielding_data]
-# fielding_stats = [{'player_id': player['Id'], 'player_name': player['Name'], 'FieldingCatchesWK': player['Statistics']['FieldingCatchesWK']} for player in fielding_data]
-# fielding_stats = [{'player_id': player['Id'], 'player_name': player['Name'], 'FieldingRunOuts': player['Statistics']['FieldingRunOuts']} for player in fielding_data]
-# fielding_stats = [{'player_id': player['Id'], 'player_name': player['Name'], 'FieldingStumpings': player['Statistics']['FieldingStumpings']} for player in fielding_data]
+batting_stats = [{'player_id': player['Id'], 'player_name': player['Name'], 
+                  'BattingAggregate': player['Statistics']['BattingAggregate'], 
+                  'BattingNotOuts': player['Statistics']['BattingNotOuts'], 
+                  'Batting50s': player['Statistics']['Batting50s'], 
+                  'Batting100s': player['Statistics']['Batting100s']} for player in batting_data]
+bowling_stats = [{'player_id': player['Id'], 'player_name': player['Name'], 
+                  'BowlingWickets': player['Statistics']['BowlingWickets'], 
+                  'BowlingMaidens': player['Statistics']['BowlingMaidens'], 
+                  'Bowling5WIs': player['Statistics']['Bowling5WIs']} for player in bowling_data]
+fielding_stats = [{'player_id': player['Id'], 'player_name': player['Name'], 
+                   'FieldingTotalCatches': player['Statistics']['FieldingTotalCatches'], 
+                   'FieldingRunOuts': player['Statistics']['FieldingRunOuts'], 
+                   'FieldingStumpings': player['Statistics']['FieldingStumpings']} for player in fielding_data]
 
 batting_df = pd.DataFrame(batting_stats)
 bowling_df = pd.DataFrame(bowling_stats)
