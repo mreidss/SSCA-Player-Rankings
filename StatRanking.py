@@ -133,14 +133,14 @@ aggregated_df['combined_score'] = (
 aggregated_df['rank'] = aggregated_df.groupby('year')['combined_score'].rank(ascending=False)
 
 # Sort the DataFrame by year and rank
-sorted_df = aggregated_df.sort_values(by=['year', 'rank'])
+sorted_SeperatedYears_df = aggregated_df.sort_values(by=['year', 'rank'],axis=0,ascending=False)
 
 
 # tell panda to print all rows
 pd.set_option('display.max_rows', None)
 
 # Display the sorted DataFrame
-print(sorted_df[['year', 'player_name', 'PlayerClub', 'Grade', 'BattingAggregate', 'BattingNotOuts', 'Batting50s', 'Batting100s', 'BowlingWickets', 'BowlingMaidens', 'Bowling5WIs', 'FieldingTotalCatches', 'FieldingStumpings', 'combined_score', 'rank']])
+print(sorted_SeperatedYears_df[['year', 'player_name', 'PlayerClub', 'Grade', 'BattingAggregate', 'BattingNotOuts', 'Batting50s', 'Batting100s', 'BowlingWickets', 'BowlingMaidens', 'Bowling5WIs', 'FieldingTotalCatches', 'FieldingStumpings', 'combined_score', 'rank']])
 
 
 
