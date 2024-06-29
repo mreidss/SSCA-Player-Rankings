@@ -112,76 +112,35 @@ grade_weights = {
 # Add a new column to store the grade weight
 combined_df['GradeWeight'] = combined_df['Grade'].map(grade_weights)
 
+# Aggregate the statistics for players appearing in multiple grades
+aggregated_df = combined_df.groupby(['year', 'player_id', 'player_name', 'PlayerClub']).sum().reset_index()
+
 # Calculate the combined score with grade weighting
-combined_df['combined_score'] = (
-    combined_df['BattingAggregate'] * weights['BattingAggregate'] * combined_df['GradeWeight'] +
-    combined_df['BattingNotOuts'] * weights['BattingNotOuts'] * combined_df['GradeWeight'] +
-    combined_df['Batting50s'] * weights['Batting50s'] * combined_df['GradeWeight'] +
-    combined_df['Batting100s'] * weights['Batting100s'] * combined_df['GradeWeight'] +
-    combined_df['BowlingWickets'] * weights['BowlingWickets'] * combined_df['GradeWeight'] +
-    combined_df['BowlingMaidens'] * weights['BowlingMaidens'] * combined_df['GradeWeight'] +
-    combined_df['Bowling5WIs'] * weights['Bowling5WIs'] * combined_df['GradeWeight'] +
-    combined_df['FieldingTotalCatches'] * weights['FieldingTotalCatches'] * combined_df['GradeWeight'] +
-    combined_df['FieldingRunOuts'] * weights['FieldingRunOuts'] * combined_df['GradeWeight'] +
-    combined_df['FieldingStumpings'] * weights['FieldingStumpings'] * combined_df['GradeWeight']
+aggregated_df['combined_score'] = (
+    aggregated_df['BattingAggregate'] * weights['BattingAggregate'] * aggregated_df['GradeWeight'] +
+    aggregated_df['BattingNotOuts'] * weights['BattingNotOuts'] * aggregated_df['GradeWeight'] +
+    aggregated_df['Batting50s'] * weights['Batting50s'] * aggregated_df['GradeWeight'] +
+    aggregated_df['Batting100s'] * weights['Batting100s'] * aggregated_df['GradeWeight'] +
+    aggregated_df['BowlingWickets'] * weights['BowlingWickets'] * aggregated_df['GradeWeight'] +
+    aggregated_df['BowlingMaidens'] * weights['BowlingMaidens'] * aggregated_df['GradeWeight'] +
+    aggregated_df['Bowling5WIs'] * weights['Bowling5WIs'] * aggregated_df['GradeWeight'] +
+    aggregated_df['FieldingTotalCatches'] * weights['FieldingTotalCatches'] * aggregated_df['GradeWeight'] +
+    aggregated_df['FieldingRunOuts'] * weights['FieldingRunOuts'] * aggregated_df['GradeWeight'] +
+    aggregated_df['FieldingStumpings'] * weights['FieldingStumpings'] * aggregated_df['GradeWeight']
 )
 
+# Rank the players based on the combined score for each year
+aggregated_df['rank'] = aggregated_df.groupby('year')['combined_score'].rank(ascending=False)
 
-#print(combined_df['BattingAggregate'].dtype)
-# print(bowling_df[bowling_df['player_name'] == 'Gill, Justin'])
+# Sort the DataFrame by year and rank
+sorted_df = aggregated_df.sort_values(by=['year', 'rank'])
 
-# Aggregate the statistics for players appearing in multiple grades
-#aggregated_df = combined_df.groupby(['player_id', 'player_name', 'PlayerClub']).sum().reset_index()
-aggregated_df = combined_df.groupby(['player_id', 'player_name', 'PlayerClub', 'year']).sum().reset_index()
-
-
-# aggregated_df = combined_df.groupby(['player_id', 'player_name']).agg({
-#     **{col: 'um' for col in combined_df.columns if col != 'Grade'},
-#     'Grade': lambda x: ', '.join(x.astype(str))
-# }).reset_index()
-
-# aggregated_df['combined_score'] = (
-#     aggregated_df['BattingAggregate'] * weights['BattingAggregate'] +
-#     aggregated_df['BattingNotOuts'] * weights['BattingNotOuts'] +
-#     aggregated_df['Batting50s'] * weights['Batting50s'] +
-#     aggregated_df['Batting100s'] * weights['Batting100s'] +
-#     aggregated_df['BowlingWickets'] * weights['BowlingWickets'] +
-#     aggregated_df['BowlingMaidens'] * weights['BowlingMaidens'] +
-#     aggregated_df['Bowling5WIs'] * weights['Bowling5WIs'] +
-#     aggregated_df['FieldingTotalCatches'] * weights['FieldingTotalCatches'] +
-#     aggregated_df['FieldingRunOuts'] * weights['FieldingRunOuts'] +
-#     aggregated_df['FieldingStumpings'] * weights['FieldingStumpings']
-# )
-
-# Batting Aggregate: 0.05
-# Not outs: 1
-# 50's: 1
-# 100's: 2
-# Wickets: 1
-# Maidens: 0.5
-# 5 wicket halls: 2
-# Catches: 1
-# WK Catches: 1
-# Runouts 
-# Stumpings: 1
-
-# Rank the players based on the combined score
-aggregated_df['rank'] = aggregated_df['combined_score'].rank(ascending=False)
-
-# Sort the DataFrame by the rank
-sorted_df = aggregated_df.sort_values(by='rank')
 
 # tell panda to print all rows
 pd.set_option('display.max_rows', None)
 
-#print(combined_df)
 # Display the sorted DataFrame
 print(sorted_df[['year', 'player_name', 'PlayerClub', 'Grade', 'BattingAggregate', 'BattingNotOuts', 'Batting50s', 'Batting100s', 'BowlingWickets', 'BowlingMaidens', 'Bowling5WIs', 'FieldingTotalCatches', 'FieldingStumpings', 'combined_score', 'rank']])
-
-
-
-
-
 
 
 
