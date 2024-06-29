@@ -2,6 +2,12 @@ import requests
 import pandas as pd
 
 # Define the list of grades with their IDs
+
+# SSCAStats = {
+#     Years = {
+
+#     }
+# }
 grades = {
     'A1': 'faac1044-0ab6-4ffa-875f-c3474c909a9a',
     'A2': '3dc5d900-292f-4c1a-8122-f315fa66edb7',
@@ -128,8 +134,13 @@ combined_df['combined_score'] = (
 
 # Aggregate the statistics for players appearing in multiple grades
 #aggregated_df = combined_df.groupby(['player_id', 'player_name', 'PlayerClub']).sum().reset_index()
-aggregated_df = combined_df.groupby(['player_id', 'player_name']).sum().reset_index()  
+aggregated_df = combined_df.groupby(['player_id', 'player_name', 'PlayerClub']).sum().reset_index()
 
+
+# aggregated_df = combined_df.groupby(['player_id', 'player_name']).agg({
+#     **{col: 'um' for col in combined_df.columns if col != 'Grade'},
+#     'Grade': lambda x: ', '.join(x.astype(str))
+# }).reset_index()
 
 # aggregated_df['combined_score'] = (
 #     aggregated_df['BattingAggregate'] * weights['BattingAggregate'] +
