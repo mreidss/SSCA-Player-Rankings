@@ -42,11 +42,17 @@ for grade_name, grade_id in grades.items():
                     'Batting100s': player['Statistics']['Batting100s']} for player in batting_data]
     
     bowling_stats = [{'player_id': player['Id'], 'player_name': player['Name'], 
+                      
+                      'Grade': grade_name,
+
                     'BowlingWickets': player['Statistics']['BowlingWickets'], 
                     'BowlingMaidens': player['Statistics']['BowlingMaidens'], 
                     'Bowling5WIs': player['Statistics']['Bowling5WIs']} for player in bowling_data]
     
     fielding_stats = [{'player_id': player['Id'], 'player_name': player['Name'], 
+                       
+                        'Grade': grade_name,
+
                     'FieldingTotalCatches': player['Statistics']['FieldingTotalCatches'], 
                     'FieldingRunOuts': player['Statistics']['FieldingRunOuts'], 
                     'FieldingStumpings': player['Statistics']['FieldingStumpings']} for player in fielding_data]
@@ -61,20 +67,14 @@ batting_df = pd.DataFrame(all_batting_stats)
 bowling_df = pd.DataFrame(all_bowling_stats)
 fielding_df = pd.DataFrame(all_fielding_stats)
 
-batting_df = batting_df.groupby(['player_id', 'player_name']).sum().reset_index()  
-bowling_df = bowling_df.groupby(['player_id', 'player_name']).sum().reset_index()  
-fielding_df = fielding_df.groupby(['player_id', 'player_name']).sum().reset_index()  
+batting_df = batting_df.groupby(['player_id', 'player_name', 'Grade']).sum().reset_index()  
+bowling_df = bowling_df.groupby(['player_id', 'player_name', 'Grade']).sum().reset_index()  
+fielding_df = fielding_df.groupby(['player_id', 'player_name', 'Grade']).sum().reset_index()  
 
 # Merge the DataFrames on the player ID
-combined_df = pd.merge(batting_df, bowling_df, on=['player_id', 'player_name'], suffixes=('_bat', '_bowl'))
-combined_df = pd.merge(combined_df, fielding_df, on=['player_id', 'player_name'])
+combined_df = pd.merge(batting_df, bowling_df, on=['player_id', 'player_name', 'Grade'], suffixes=('_bat', '_bowl'))
+combined_df = pd.merge(combined_df, fielding_df, on=['player_id', 'player_name', 'Grade'])
 
-#print(combined_df['BattingAggregate'].dtype)
-# print(bowling_df[bowling_df['player_name'] == 'Gill, Justin'])
-
-# Aggregate the statistics for players appearing in multiple grades
-#aggregated_df = combined_df.groupby(['player_id', 'player_name', 'PlayerClub']).sum().reset_index()
-aggregated_df = combined_df.groupby(['player_id', 'player_name']).sum().reset_index()  
 
 
 
@@ -97,31 +97,38 @@ weights = {
 # Define the weights for each grade
 grade_weights = {
     'A1': 1.0,
-    'A2': 1.0,
-    'B1': 0.9,
-    'B2': 0.9,
-    'B3': 0.8,
-    'B4': 0.7,
-    'C1': 0.6
+    'A2': 0.9,
+    'B1': 0.8,
+    'B2': 0.7,
+    'B3': 0.6,
+    'B4': 0.55,
+    'C1': 0.5
 }
 
 # Add a new column to store the grade weight
-aggregated_df['GradeWeight'] = aggregated_df['Grade'].map(grade_weights)
+combined_df['GradeWeight'] = combined_df['Grade'].map(grade_weights)
 
 # Calculate the combined score with grade weighting
-aggregated_df['combined_score'] = (
-    aggregated_df['BattingAggregate'] * weights['BattingAggregate'] * aggregated_df['GradeWeight'] +
-    aggregated_df['BattingNotOuts'] * weights['BattingNotOuts'] * aggregated_df['GradeWeight'] +
-    aggregated_df['Batting50s'] * weights['Batting50s'] * aggregated_df['GradeWeight'] +
-    aggregated_df['Batting100s'] * weights['Batting100s'] * aggregated_df['GradeWeight'] +
-    aggregated_df['BowlingWickets'] * weights['BowlingWickets'] * aggregated_df['GradeWeight'] +
-    aggregated_df['BowlingMaidens'] * weights['BowlingMaidens'] * aggregated_df['GradeWeight'] +
-    aggregated_df['Bowling5WIs'] * weights['Bowling5WIs'] * aggregated_df['GradeWeight'] +
-    aggregated_df['FieldingTotalCatches'] * weights['FieldingTotalCatches'] * aggregated_df['GradeWeight'] +
-    aggregated_df['FieldingRunOuts'] * weights['FieldingRunOuts'] * aggregated_df['GradeWeight'] +
-    aggregated_df['FieldingStumpings'] * weights['FieldingStumpings'] * aggregated_df['GradeWeight']
+combined_df['combined_score'] = (
+    combined_df['BattingAggregate'] * weights['BattingAggregate'] * combined_df['GradeWeight'] +
+    combined_df['BattingNotOuts'] * weights['BattingNotOuts'] * combined_df['GradeWeight'] +
+    combined_df['Batting50s'] * weights['Batting50s'] * combined_df['GradeWeight'] +
+    combined_df['Batting100s'] * weights['Batting100s'] * combined_df['GradeWeight'] +
+    combined_df['BowlingWickets'] * weights['BowlingWickets'] * combined_df['GradeWeight'] +
+    combined_df['BowlingMaidens'] * weights['BowlingMaidens'] * combined_df['GradeWeight'] +
+    combined_df['Bowling5WIs'] * weights['Bowling5WIs'] * combined_df['GradeWeight'] +
+    combined_df['FieldingTotalCatches'] * weights['FieldingTotalCatches'] * combined_df['GradeWeight'] +
+    combined_df['FieldingRunOuts'] * weights['FieldingRunOuts'] * combined_df['GradeWeight'] +
+    combined_df['FieldingStumpings'] * weights['FieldingStumpings'] * combined_df['GradeWeight']
 )
 
+
+#print(combined_df['BattingAggregate'].dtype)
+# print(bowling_df[bowling_df['player_name'] == 'Gill, Justin'])
+
+# Aggregate the statistics for players appearing in multiple grades
+#aggregated_df = combined_df.groupby(['player_id', 'player_name', 'PlayerClub']).sum().reset_index()
+aggregated_df = combined_df.groupby(['player_id', 'player_name']).sum().reset_index()  
 
 
 # aggregated_df['combined_score'] = (
@@ -157,8 +164,10 @@ sorted_df = aggregated_df.sort_values(by='rank')
 
 # tell panda to print all rows
 pd.set_option('display.max_rows', None)
+
+#print(combined_df)
 # Display the sorted DataFrame
-print(sorted_df[['player_id', 'player_name', 'PlayerClub', 'Grade', 'BattingAggregate', 'BattingNotOuts', 'Batting50s', 'Batting100s', 'BowlingWickets', 'BowlingMaidens', 'Bowling5WIs', 'FieldingTotalCatches', 'FieldingStumpings', 'combined_score', 'rank']])
+print(sorted_df[['player_name', 'PlayerClub', 'Grade', 'BattingAggregate', 'BattingNotOuts', 'Batting50s', 'Batting100s', 'BowlingWickets', 'BowlingMaidens', 'Bowling5WIs', 'FieldingTotalCatches', 'FieldingStumpings', 'combined_score', 'rank']])
 
 
 
