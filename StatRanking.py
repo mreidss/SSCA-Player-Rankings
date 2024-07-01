@@ -142,7 +142,7 @@ grade_weights = {
 # Add a new column to store the grade weight
 combined_df['GradeWeight'] = combined_df['Grade'].map(grade_weights)
 
-print(combined_df)
+#print(combined_df)
 
 
 
@@ -166,7 +166,7 @@ aggregated_df = combined_df.groupby(['year', 'player_id', 'player_name']).sum().
 
 
 
-print(aggregated_df)
+#print(aggregated_df)
 
 
 
@@ -228,7 +228,8 @@ def PrintCombinedRankOverAllYears():
 
 
 # Print player stats and ranks for one year with split grades
-PrintPlayerRankSeperateGrades('2023-2024')
+#PrintPlayerRankSeperateGrades('2022-2023')
+#PrintPlayerRankSeperateGrades('2023-2024')
 
 # Print player stats and ranks combined to find a list of top players SSCA
 PrintCombinedRankOverAllYears()
