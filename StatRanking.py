@@ -183,7 +183,6 @@ aggregated_df['rank'] = aggregated_df.groupby('year')['combined_score'].rank(asc
 
 
 
-
 # tell panda to print all rows
 pd.set_option('display.max_rows', None)
 
@@ -191,8 +190,48 @@ pd.set_option('display.max_rows', None)
 
 
 
+# # Print all data for each player with seperated grade stats year 2022-2023 (e.g., 2022-2023)
+def PrintPlayerRankSeperateGrades(year):
+
+    # Only show stats for the specified year
+    yearly_stats_df = combined_df[combined_df['year'] == year]
+
+    # Print the resulting DataFrame
+    print(yearly_stats_df[['year', 'player_name', 'PlayerClub', 'Grade', 'BattingAggregate', 'BattingNotOuts', 'Batting50s', 'Batting100s', 'BowlingWickets', 'BowlingMaidens', 'Bowling5WIs', 'FieldingTotalCatches', 'FieldingRunOuts', 'FieldingStumpings', 'combined_score']])
 
 
+    # ##### Print Ranks over both years
+def PrintCombinedRankOverAllYears():
+    # # # Pivot the data to create a column for each year
+    pivoted_df = aggregated_df.pivot_table(index=['player_id', 'player_name', 'PlayerClub'],
+                                            columns='year',
+                                            values='combined_score',
+                                            aggfunc=lambda x: ','.join(aggregated_df.loc[x.index, 'Grade']) + ' ' + str(round(x.values[0], 2)))
+
+    # Reset the index and rename the columns
+    pivoted_df = pivoted_df.reset_index()
+    pivoted_df.columns = ['player_id', 'player_name', 'PlayerClub', '2022-2023', '2023-2024']
+
+    # Fill NaN values with an empty string
+    pivoted_df = pivoted_df.fillna('')
+
+    # Add a rank column based on the average combined score
+    pivoted_df['average_combined_score'] = pivoted_df[['2022-2023', '2023-2024']].apply(lambda x: np.mean([float(y.split(' ')[1]) for y in x if y]), axis=1)
+    pivoted_df['rank'] = pivoted_df['average_combined_score'].rank(ascending=False).astype(int)
+
+    # Sort the DataFrame by the 'rank' column
+    pivoted_df = pivoted_df.sort_values(by='rank',ascending=False)
+
+    # Display the sorted DataFrame
+    print(pivoted_df[['rank', 'player_id', 'player_name', 'PlayerClub', '2022-2023', '2023-2024', 'average_combined_score']])
+
+
+
+# Print player stats and ranks for one year with split grades
+PrintPlayerRankSeperateGrades('2023-2024')
+
+# Print player stats and ranks combined to find a list of top players SSCA
+PrintCombinedRankOverAllYears()
 
 
 
@@ -210,25 +249,6 @@ pd.set_option('display.max_rows', None)
 # sorted_SeperatedYears_df = aggregated_df.sort_values(by=['year', 'rank'], ascending=False)
 # # Print all users and stats and rankings sperated by year
 # print(sorted_SeperatedYears_df[['year', 'player_name', 'PlayerClub', 'Grade', 'BattingAggregate', 'BattingNotOuts', 'Batting50s', 'Batting100s', 'BowlingWickets', 'BowlingMaidens', 'Bowling5WIs', 'FieldingTotalCatches', 'FieldingStumpings', 'combined_score', 'rank']])
-
-
-
-
-
-
-# # # # # # Group by player_id and year, and calculate the mean combined score
-# # # # # average_scores_df = aggregated_df.groupby(['player_id', 'player_name', 'PlayerClub'])['combined_score'].mean().reset_index()
-
-# # # # # # Sort the DataFrame by the average combined score in descending order
-# # # # # average_scores_df = average_scores_df.sort_values(by='combined_score', ascending=False)
-
-# # # # # # Add a rank column based on the average combined score
-# # # # # average_scores_df['rank'] = average_scores_df['combined_score'].rank(ascending=False).astype(int)
-
-# # # # # # Display the sorted DataFrame
-# # # # # print(average_scores_df[['rank', 'player_name', 'PlayerClub', 'combined_score', 'Grade']])
-
-
 
 
 
@@ -266,31 +286,6 @@ pd.set_option('display.max_rows', None)
 
 
 
-# ##### Print Ranks over both years
-
-
-# # # # Pivot the data to create a column for each year
-pivoted_df = aggregated_df.pivot_table(index=['player_id', 'player_name', 'PlayerClub'],
-                                        columns='year',
-                                        values='combined_score',
-                                        aggfunc=lambda x: ','.join(aggregated_df.loc[x.index, 'Grade']) + ' ' + str(round(x.values[0], 2)))
-
-# Reset the index and rename the columns
-pivoted_df = pivoted_df.reset_index()
-pivoted_df.columns = ['player_id', 'player_name', 'PlayerClub', '2022-2023', '2023-2024']
-
-# Fill NaN values with an empty string
-pivoted_df = pivoted_df.fillna('')
-
-# Add a rank column based on the average combined score
-pivoted_df['average_combined_score'] = pivoted_df[['2022-2023', '2023-2024']].apply(lambda x: np.mean([float(y.split(' ')[1]) for y in x if y]), axis=1)
-pivoted_df['rank'] = pivoted_df['average_combined_score'].rank(ascending=False).astype(int)
-
-# Sort the DataFrame by the 'rank' column
-pivoted_df = pivoted_df.sort_values(by='rank',ascending=False)
-
-# Display the sorted DataFrame
-print(pivoted_df[['rank', 'player_id', 'player_name', 'PlayerClub', '2022-2023', '2023-2024', 'average_combined_score']])
 
 
 
@@ -324,10 +319,27 @@ print(pivoted_df[['rank', 'player_id', 'player_name', 'PlayerClub', '2022-2023',
 
 
 
-# # Filter the data for a specific year (e.g., 2022-2023)
-# year = '2023-2024'
-# yearly_stats_df = combined_df[combined_df['year'] == year]
 
 
-# # Print the resulting DataFrame
-# print(yearly_stats_df[['year', 'player_name', 'PlayerClub', 'Grade', 'BattingAggregate', 'BattingNotOuts', 'Batting50s', 'Batting100s', 'BowlingWickets', 'BowlingMaidens', 'Bowling5WIs', 'FieldingTotalCatches', 'FieldingRunOuts', 'FieldingStumpings', 'combined_score']])
+
+
+
+
+# # # # # # Group by player_id and year, and calculate the mean combined score
+# # # # # average_scores_df = aggregated_df.groupby(['player_id', 'player_name', 'PlayerClub'])['combined_score'].mean().reset_index()
+
+# # # # # # Sort the DataFrame by the average combined score in descending order
+# # # # # average_scores_df = average_scores_df.sort_values(by='combined_score', ascending=False)
+
+# # # # # # Add a rank column based on the average combined score
+# # # # # average_scores_df['rank'] = average_scores_df['combined_score'].rank(ascending=False).astype(int)
+
+# # # # # # Display the sorted DataFrame
+# # # # # print(average_scores_df[['rank', 'player_name', 'PlayerClub', 'combined_score', 'Grade']])
+
+
+
+
+
+
+
