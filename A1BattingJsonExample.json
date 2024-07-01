@@ -1,0 +1,2896 @@
+[
+    {
+        "Id": "4efed1f0-bc73-42f9-b1c4-2e474ad7546d",
+        "Name": "Green, Steven",
+        "ShortName": "S Green",
+        "Organisation": {
+            "Id": "6e0641c4-87d8-eb11-a7ad-2818780da0cc",
+            "Name": "Engadine Dragons Cricket Club"
+        },
+        "Statistics": {
+            "Matches": 11,
+            "BattingInnings": 10,
+            "BattingAggregate": 406,
+            "BattingNotOuts": 0,
+            "BattingBallsFaced": 209,
+            "Batting50s": 3,
+            "Batting100s": 0,
+            "Batting0s": 0,
+            "BattingHighScore": 93,
+            "IsBattingHSNotOut": false,
+            "BattingAverage": 40.6,
+            "BattingStrikeRate": 194.26,
+            "BattingFours": 46,
+            "BattingSixes": 0,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "c555d8c5-5e23-4bf9-96d0-c25913c89767",
+        "Name": "Barnes, Mathew",
+        "ShortName": "M Barnes",
+        "Organisation": {
+            "Id": "6e0641c4-87d8-eb11-a7ad-2818780da0cc",
+            "Name": "Engadine Dragons Cricket Club"
+        },
+        "Statistics": {
+            "Matches": 12,
+            "BattingInnings": 11,
+            "BattingAggregate": 353,
+            "BattingNotOuts": 2,
+            "BattingBallsFaced": 199,
+            "Batting50s": 1,
+            "Batting100s": 1,
+            "Batting0s": 2,
+            "BattingHighScore": 120,
+            "IsBattingHSNotOut": true,
+            "BattingAverage": 39.22,
+            "BattingStrikeRate": 177.39,
+            "BattingFours": 53,
+            "BattingSixes": 0,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "6913cd9b-c355-4984-881a-3d7a9ba75e2c",
+        "Name": "Simpson, Joey",
+        "ShortName": "J Simpson",
+        "Organisation": {
+            "Id": "70a127f0-86d8-eb11-a7ad-2818780da0cc",
+            "Name": "St Patrick's Cricket Club (Sutherland)"
+        },
+        "Statistics": {
+            "Matches": 13,
+            "BattingInnings": 11,
+            "BattingAggregate": 333,
+            "BattingNotOuts": 1,
+            "BattingBallsFaced": 250,
+            "Batting50s": 1,
+            "Batting100s": 1,
+            "Batting0s": 3,
+            "BattingHighScore": 114,
+            "IsBattingHSNotOut": true,
+            "BattingAverage": 33.3,
+            "BattingStrikeRate": 133.2,
+            "BattingFours": 47,
+            "BattingSixes": 1,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "b2f7a59e-ca4d-42a7-a164-1720ffebb4aa",
+        "Name": "Wood, Luke",
+        "ShortName": "L Wood",
+        "Organisation": {
+            "Id": "02aabf0e-87d8-eb11-a7ad-2818780da0cc",
+            "Name": "Caringbah Inn Cricket Club"
+        },
+        "Statistics": {
+            "Matches": 11,
+            "BattingInnings": 10,
+            "BattingAggregate": 319,
+            "BattingNotOuts": 1,
+            "BattingBallsFaced": 80,
+            "Batting50s": 1,
+            "Batting100s": 1,
+            "Batting0s": 2,
+            "BattingHighScore": 151,
+            "IsBattingHSNotOut": true,
+            "BattingAverage": 35.44,
+            "BattingStrikeRate": 398.75,
+            "BattingFours": 12,
+            "BattingSixes": 0,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "eb5ae479-6c5d-41a8-a5b2-c3ae703d76ce",
+        "Name": "Darby, Matthew",
+        "ShortName": "M Darby",
+        "Organisation": {
+            "Id": "0a4939ca-87d8-eb11-a7ad-2818780da0cc",
+            "Name": "Illawong Menai Cricket Club"
+        },
+        "Statistics": {
+            "Matches": 9,
+            "BattingInnings": 9,
+            "BattingAggregate": 273,
+            "BattingNotOuts": 2,
+            "BattingBallsFaced": 240,
+            "Batting50s": 1,
+            "Batting100s": 0,
+            "Batting0s": 1,
+            "BattingHighScore": 64,
+            "IsBattingHSNotOut": true,
+            "BattingAverage": 39,
+            "BattingStrikeRate": 113.75,
+            "BattingFours": 28,
+            "BattingSixes": 0,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "d0e8336e-96d6-4413-bf60-e23da6d28b27",
+        "Name": "Christison, Mathew",
+        "ShortName": "M Christison",
+        "Organisation": {
+            "Id": "0a4939ca-87d8-eb11-a7ad-2818780da0cc",
+            "Name": "Illawong Menai Cricket Club"
+        },
+        "Statistics": {
+            "Matches": 12,
+            "BattingInnings": 11,
+            "BattingAggregate": 273,
+            "BattingNotOuts": 0,
+            "BattingBallsFaced": 107,
+            "Batting50s": 1,
+            "Batting100s": 0,
+            "Batting0s": 0,
+            "BattingHighScore": 73,
+            "IsBattingHSNotOut": false,
+            "BattingAverage": 24.82,
+            "BattingStrikeRate": 255.14,
+            "BattingFours": 35,
+            "BattingSixes": 3,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "c809bb66-9cf5-45eb-a76a-1bb666d162dc",
+        "Name": "lainson, Aaron",
+        "ShortName": "A lainson",
+        "Organisation": {
+            "Id": "70a127f0-86d8-eb11-a7ad-2818780da0cc",
+            "Name": "St Patrick's Cricket Club (Sutherland)"
+        },
+        "Statistics": {
+            "Matches": 12,
+            "BattingInnings": 11,
+            "BattingAggregate": 258,
+            "BattingNotOuts": 0,
+            "BattingBallsFaced": 240,
+            "Batting50s": 1,
+            "Batting100s": 0,
+            "Batting0s": 1,
+            "BattingHighScore": 76,
+            "IsBattingHSNotOut": false,
+            "BattingAverage": 23.45,
+            "BattingStrikeRate": 107.5,
+            "BattingFours": 35,
+            "BattingSixes": 2,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "5bf6774c-2fd4-4455-aaad-641d9eec0c94",
+        "Name": "Rosman, Casey",
+        "ShortName": "C Rosman",
+        "Organisation": {
+            "Id": "70a127f0-86d8-eb11-a7ad-2818780da0cc",
+            "Name": "St Patrick's Cricket Club (Sutherland)"
+        },
+        "Statistics": {
+            "Matches": 10,
+            "BattingInnings": 10,
+            "BattingAggregate": 242,
+            "BattingNotOuts": 3,
+            "BattingBallsFaced": 155,
+            "Batting50s": 1,
+            "Batting100s": 0,
+            "Batting0s": 3,
+            "BattingHighScore": 95,
+            "IsBattingHSNotOut": false,
+            "BattingAverage": 34.57,
+            "BattingStrikeRate": 156.13,
+            "BattingFours": 14,
+            "BattingSixes": 0,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "020ea61a-5563-494f-bee7-adad615d81ca",
+        "Name": "Campbell, Brett",
+        "ShortName": "B Campbell",
+        "Organisation": {
+            "Id": "98448f94-86d8-eb11-a7ad-2818780da0cc",
+            "Name": "Bangor Barden Ridge Cricket Club"
+        },
+        "Statistics": {
+            "Matches": 9,
+            "BattingInnings": 9,
+            "BattingAggregate": 235,
+            "BattingNotOuts": 2,
+            "BattingBallsFaced": 257,
+            "Batting50s": 2,
+            "Batting100s": 0,
+            "Batting0s": 0,
+            "BattingHighScore": 86,
+            "IsBattingHSNotOut": true,
+            "BattingAverage": 33.57,
+            "BattingStrikeRate": 91.44,
+            "BattingFours": 33,
+            "BattingSixes": 0,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "7031866c-8d9a-406a-bda6-9985d951d92f",
+        "Name": "Corbett, James",
+        "ShortName": "J Corbett",
+        "Organisation": {
+            "Id": "70a127f0-86d8-eb11-a7ad-2818780da0cc",
+            "Name": "St Patrick's Cricket Club (Sutherland)"
+        },
+        "Statistics": {
+            "Matches": 7,
+            "BattingInnings": 7,
+            "BattingAggregate": 234,
+            "BattingNotOuts": 3,
+            "BattingBallsFaced": 86,
+            "Batting50s": 0,
+            "Batting100s": 1,
+            "Batting0s": 2,
+            "BattingHighScore": 131,
+            "IsBattingHSNotOut": true,
+            "BattingAverage": 58.5,
+            "BattingStrikeRate": 272.09,
+            "BattingFours": 35,
+            "BattingSixes": 1,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "3c302439-800a-4fda-b71d-a705b29b5701",
+        "Name": "Lucas, Daniel",
+        "ShortName": "D Lucas",
+        "Organisation": {
+            "Id": "70a127f0-86d8-eb11-a7ad-2818780da0cc",
+            "Name": "St Patrick's Cricket Club (Sutherland)"
+        },
+        "Statistics": {
+            "Matches": 9,
+            "BattingInnings": 8,
+            "BattingAggregate": 230,
+            "BattingNotOuts": 1,
+            "BattingBallsFaced": 148,
+            "Batting50s": 3,
+            "Batting100s": 0,
+            "Batting0s": 0,
+            "BattingHighScore": 67,
+            "IsBattingHSNotOut": false,
+            "BattingAverage": 32.86,
+            "BattingStrikeRate": 155.41,
+            "BattingFours": 26,
+            "BattingSixes": 8,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "59576bdd-a166-4b1d-98b7-b8cb91cdc043",
+        "Name": "Green, Nathan",
+        "ShortName": "N Green",
+        "Organisation": {
+            "Id": "70a127f0-86d8-eb11-a7ad-2818780da0cc",
+            "Name": "St Patrick's Cricket Club (Sutherland)"
+        },
+        "Statistics": {
+            "Matches": 9,
+            "BattingInnings": 6,
+            "BattingAggregate": 217,
+            "BattingNotOuts": 2,
+            "BattingBallsFaced": 133,
+            "Batting50s": 2,
+            "Batting100s": 0,
+            "Batting0s": 0,
+            "BattingHighScore": 76,
+            "IsBattingHSNotOut": true,
+            "BattingAverage": 54.25,
+            "BattingStrikeRate": 163.16,
+            "BattingFours": 26,
+            "BattingSixes": 1,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "eb27db80-e503-4edf-a287-fed93ec875e8",
+        "Name": "McMullen, Declan",
+        "ShortName": "D McMullen",
+        "Organisation": {
+            "Id": "70a127f0-86d8-eb11-a7ad-2818780da0cc",
+            "Name": "St Patrick's Cricket Club (Sutherland)"
+        },
+        "Statistics": {
+            "Matches": 11,
+            "BattingInnings": 9,
+            "BattingAggregate": 216,
+            "BattingNotOuts": 2,
+            "BattingBallsFaced": 143,
+            "Batting50s": 3,
+            "Batting100s": 0,
+            "Batting0s": 0,
+            "BattingHighScore": 55,
+            "IsBattingHSNotOut": false,
+            "BattingAverage": 30.86,
+            "BattingStrikeRate": 151.05,
+            "BattingFours": 14,
+            "BattingSixes": 0,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "e6abd5b1-4f96-4659-ace4-71ce23c8acce",
+        "Name": "Groat, Matthew",
+        "ShortName": "M Groat",
+        "Organisation": {
+            "Id": "02aabf0e-87d8-eb11-a7ad-2818780da0cc",
+            "Name": "Caringbah Inn Cricket Club"
+        },
+        "Statistics": {
+            "Matches": 11,
+            "BattingInnings": 11,
+            "BattingAggregate": 181,
+            "BattingNotOuts": 2,
+            "BattingBallsFaced": 68,
+            "Batting50s": 0,
+            "Batting100s": 0,
+            "Batting0s": 0,
+            "BattingHighScore": 44,
+            "IsBattingHSNotOut": false,
+            "BattingAverage": 20.11,
+            "BattingStrikeRate": 266.18,
+            "BattingFours": 16,
+            "BattingSixes": 0,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "429615d5-863a-494e-bce9-af64db973258",
+        "Name": "Howse, Elliot",
+        "ShortName": "E Howse",
+        "Organisation": {
+            "Id": "98448f94-86d8-eb11-a7ad-2818780da0cc",
+            "Name": "Bangor Barden Ridge Cricket Club"
+        },
+        "Statistics": {
+            "Matches": 10,
+            "BattingInnings": 10,
+            "BattingAggregate": 173,
+            "BattingNotOuts": 0,
+            "BattingBallsFaced": 231,
+            "Batting50s": 1,
+            "Batting100s": 0,
+            "Batting0s": 1,
+            "BattingHighScore": 62,
+            "IsBattingHSNotOut": false,
+            "BattingAverage": 17.3,
+            "BattingStrikeRate": 74.89,
+            "BattingFours": 21,
+            "BattingSixes": 4,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "a3a86ad5-7594-4257-b017-d2ca8d6512e1",
+        "Name": "Campbell, Kane",
+        "ShortName": "K Campbell",
+        "Organisation": {
+            "Id": "98448f94-86d8-eb11-a7ad-2818780da0cc",
+            "Name": "Bangor Barden Ridge Cricket Club"
+        },
+        "Statistics": {
+            "Matches": 11,
+            "BattingInnings": 11,
+            "BattingAggregate": 173,
+            "BattingNotOuts": 0,
+            "BattingBallsFaced": 327,
+            "Batting50s": 0,
+            "Batting100s": 0,
+            "Batting0s": 0,
+            "BattingHighScore": 48,
+            "IsBattingHSNotOut": false,
+            "BattingAverage": 15.73,
+            "BattingStrikeRate": 52.91,
+            "BattingFours": 17,
+            "BattingSixes": 3,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "e834713d-b1b8-4582-b992-27f854130d28",
+        "Name": "Cocks, Dwayne",
+        "ShortName": "D Cocks",
+        "Organisation": {
+            "Id": "02aabf0e-87d8-eb11-a7ad-2818780da0cc",
+            "Name": "Caringbah Inn Cricket Club"
+        },
+        "Statistics": {
+            "Matches": 12,
+            "BattingInnings": 11,
+            "BattingAggregate": 170,
+            "BattingNotOuts": 0,
+            "BattingBallsFaced": 62,
+            "Batting50s": 0,
+            "Batting100s": 0,
+            "Batting0s": 2,
+            "BattingHighScore": 41,
+            "IsBattingHSNotOut": false,
+            "BattingAverage": 15.45,
+            "BattingStrikeRate": 274.19,
+            "BattingFours": 13,
+            "BattingSixes": 0,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "6decd07e-5fc3-46b4-9cd0-4a16bd562aaf",
+        "Name": "Leithhead, Timothy",
+        "ShortName": "T Leithhead",
+        "Organisation": {
+            "Id": "02aabf0e-87d8-eb11-a7ad-2818780da0cc",
+            "Name": "Caringbah Inn Cricket Club"
+        },
+        "Statistics": {
+            "Matches": 10,
+            "BattingInnings": 10,
+            "BattingAggregate": 170,
+            "BattingNotOuts": 1,
+            "BattingBallsFaced": 188,
+            "Batting50s": 0,
+            "Batting100s": 0,
+            "Batting0s": 0,
+            "BattingHighScore": 32,
+            "IsBattingHSNotOut": false,
+            "BattingAverage": 18.89,
+            "BattingStrikeRate": 90.43,
+            "BattingFours": 10,
+            "BattingSixes": 0,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "1e7baccb-c368-4abb-8e2b-05cfd32f168f",
+        "Name": "Foster, Daniel",
+        "ShortName": "D Foster",
+        "Organisation": {
+            "Id": "0a4939ca-87d8-eb11-a7ad-2818780da0cc",
+            "Name": "Illawong Menai Cricket Club"
+        },
+        "Statistics": {
+            "Matches": 11,
+            "BattingInnings": 11,
+            "BattingAggregate": 167,
+            "BattingNotOuts": 1,
+            "BattingBallsFaced": 60,
+            "Batting50s": 1,
+            "Batting100s": 0,
+            "Batting0s": 2,
+            "BattingHighScore": 64,
+            "IsBattingHSNotOut": false,
+            "BattingAverage": 16.7,
+            "BattingStrikeRate": 278.33,
+            "BattingFours": 7,
+            "BattingSixes": 2,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "b170afd1-93d9-4087-8822-0e7970521705",
+        "Name": "Poole, Jordan",
+        "ShortName": "J Poole",
+        "Organisation": {
+            "Id": "0a4939ca-87d8-eb11-a7ad-2818780da0cc",
+            "Name": "Illawong Menai Cricket Club"
+        },
+        "Statistics": {
+            "Matches": 12,
+            "BattingInnings": 11,
+            "BattingAggregate": 164,
+            "BattingNotOuts": 1,
+            "BattingBallsFaced": 182,
+            "Batting50s": 0,
+            "Batting100s": 0,
+            "Batting0s": 2,
+            "BattingHighScore": 41,
+            "IsBattingHSNotOut": false,
+            "BattingAverage": 16.4,
+            "BattingStrikeRate": 90.11,
+            "BattingFours": 10,
+            "BattingSixes": 0,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "f043ac47-bf38-437c-96b8-63dee82524b4",
+        "Name": "Stevenson, Carl",
+        "ShortName": "C Stevenson",
+        "Organisation": {
+            "Id": "6e0641c4-87d8-eb11-a7ad-2818780da0cc",
+            "Name": "Engadine Dragons Cricket Club"
+        },
+        "Statistics": {
+            "Matches": 12,
+            "BattingInnings": 9,
+            "BattingAggregate": 163,
+            "BattingNotOuts": 3,
+            "BattingBallsFaced": 105,
+            "Batting50s": 0,
+            "Batting100s": 0,
+            "Batting0s": 0,
+            "BattingHighScore": 43,
+            "IsBattingHSNotOut": true,
+            "BattingAverage": 27.17,
+            "BattingStrikeRate": 155.24,
+            "BattingFours": 5,
+            "BattingSixes": 0,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "4564cac3-5534-4685-ae3d-fd9cb03a5dbf",
+        "Name": "DeCelis, Paul",
+        "ShortName": "P DeCelis",
+        "Organisation": {
+            "Id": "98448f94-86d8-eb11-a7ad-2818780da0cc",
+            "Name": "Bangor Barden Ridge Cricket Club"
+        },
+        "Statistics": {
+            "Matches": 11,
+            "BattingInnings": 11,
+            "BattingAggregate": 160,
+            "BattingNotOuts": 0,
+            "BattingBallsFaced": 221,
+            "Batting50s": 1,
+            "Batting100s": 0,
+            "Batting0s": 1,
+            "BattingHighScore": 71,
+            "IsBattingHSNotOut": false,
+            "BattingAverage": 14.55,
+            "BattingStrikeRate": 72.4,
+            "BattingFours": 22,
+            "BattingSixes": 0,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "69589a4c-384c-4207-8387-496008cd5d9d",
+        "Name": "Smith, Joel",
+        "ShortName": "J Smith",
+        "Organisation": {
+            "Id": "98448f94-86d8-eb11-a7ad-2818780da0cc",
+            "Name": "Bangor Barden Ridge Cricket Club"
+        },
+        "Statistics": {
+            "Matches": 7,
+            "BattingInnings": 7,
+            "BattingAggregate": 141,
+            "BattingNotOuts": 1,
+            "BattingBallsFaced": 183,
+            "Batting50s": 1,
+            "Batting100s": 0,
+            "Batting0s": 0,
+            "BattingHighScore": 55,
+            "IsBattingHSNotOut": false,
+            "BattingAverage": 23.5,
+            "BattingStrikeRate": 77.05,
+            "BattingFours": 21,
+            "BattingSixes": 0,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "d7081be3-2e23-4ad8-be39-70fc70a80635",
+        "Name": "Bird, Pat",
+        "ShortName": "P Bird",
+        "Organisation": {
+            "Id": "6e0641c4-87d8-eb11-a7ad-2818780da0cc",
+            "Name": "Engadine Dragons Cricket Club"
+        },
+        "Statistics": {
+            "Matches": 10,
+            "BattingInnings": 8,
+            "BattingAggregate": 140,
+            "BattingNotOuts": 2,
+            "BattingBallsFaced": 142,
+            "Batting50s": 0,
+            "Batting100s": 0,
+            "Batting0s": 0,
+            "BattingHighScore": 38,
+            "IsBattingHSNotOut": true,
+            "BattingAverage": 23.33,
+            "BattingStrikeRate": 98.59,
+            "BattingFours": 15,
+            "BattingSixes": 0,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "d3ea9810-113f-4dc9-b54c-c3d945ad9c25",
+        "Name": "Richards, Greg",
+        "ShortName": "G Richards",
+        "Organisation": {
+            "Id": "98448f94-86d8-eb11-a7ad-2818780da0cc",
+            "Name": "Bangor Barden Ridge Cricket Club"
+        },
+        "Statistics": {
+            "Matches": 11,
+            "BattingInnings": 11,
+            "BattingAggregate": 139,
+            "BattingNotOuts": 1,
+            "BattingBallsFaced": 377,
+            "Batting50s": 0,
+            "Batting100s": 0,
+            "Batting0s": 2,
+            "BattingHighScore": 35,
+            "IsBattingHSNotOut": true,
+            "BattingAverage": 13.9,
+            "BattingStrikeRate": 36.87,
+            "BattingFours": 13,
+            "BattingSixes": 0,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "b6f241eb-18b8-4ce3-a12b-4180f6de5482",
+        "Name": "McLeod, Angus",
+        "ShortName": "A McLeod",
+        "Organisation": {
+            "Id": "0a4939ca-87d8-eb11-a7ad-2818780da0cc",
+            "Name": "Illawong Menai Cricket Club"
+        },
+        "Statistics": {
+            "Matches": 12,
+            "BattingInnings": 10,
+            "BattingAggregate": 134,
+            "BattingNotOuts": 0,
+            "BattingBallsFaced": 60,
+            "Batting50s": 0,
+            "Batting100s": 0,
+            "Batting0s": 3,
+            "BattingHighScore": 41,
+            "IsBattingHSNotOut": false,
+            "BattingAverage": 13.4,
+            "BattingStrikeRate": 223.33,
+            "BattingFours": 10,
+            "BattingSixes": 0,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "a48a775f-c2a6-4e8c-8612-8d6d9f2cb5af",
+        "Name": "Brennan, Joshua",
+        "ShortName": "J Brennan",
+        "Organisation": {
+            "Id": "02aabf0e-87d8-eb11-a7ad-2818780da0cc",
+            "Name": "Caringbah Inn Cricket Club"
+        },
+        "Statistics": {
+            "Matches": 5,
+            "BattingInnings": 5,
+            "BattingAggregate": 131,
+            "BattingNotOuts": 1,
+            "BattingBallsFaced": 81,
+            "Batting50s": 1,
+            "Batting100s": 0,
+            "Batting0s": 0,
+            "BattingHighScore": 51,
+            "IsBattingHSNotOut": false,
+            "BattingAverage": 32.75,
+            "BattingStrikeRate": 161.73,
+            "BattingFours": 16,
+            "BattingSixes": 1,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "cbeaba98-9cb2-4a6d-bf53-5cd272ef13c5",
+        "Name": "Pettit-Young, Jake",
+        "ShortName": "J Pettit-Young",
+        "Organisation": {
+            "Id": "02aabf0e-87d8-eb11-a7ad-2818780da0cc",
+            "Name": "Caringbah Inn Cricket Club"
+        },
+        "Statistics": {
+            "Matches": 12,
+            "BattingInnings": 8,
+            "BattingAggregate": 128,
+            "BattingNotOuts": 2,
+            "BattingBallsFaced": 98,
+            "Batting50s": 0,
+            "Batting100s": 0,
+            "Batting0s": 0,
+            "BattingHighScore": 39,
+            "IsBattingHSNotOut": false,
+            "BattingAverage": 21.33,
+            "BattingStrikeRate": 130.61,
+            "BattingFours": 14,
+            "BattingSixes": 0,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "36e07cec-0395-46b8-8214-8533b18eaba4",
+        "Name": "Maloney, Connor",
+        "ShortName": "C Maloney",
+        "Organisation": {
+            "Id": "0a4939ca-87d8-eb11-a7ad-2818780da0cc",
+            "Name": "Illawong Menai Cricket Club"
+        },
+        "Statistics": {
+            "Matches": 10,
+            "BattingInnings": 10,
+            "BattingAggregate": 123,
+            "BattingNotOuts": 3,
+            "BattingBallsFaced": 71,
+            "Batting50s": 1,
+            "Batting100s": 0,
+            "Batting0s": 2,
+            "BattingHighScore": 57,
+            "IsBattingHSNotOut": false,
+            "BattingAverage": 17.57,
+            "BattingStrikeRate": 173.24,
+            "BattingFours": 6,
+            "BattingSixes": 0,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "86599771-9c3c-49bc-9727-aa939be4d6ab",
+        "Name": "Reidy, Mitch",
+        "ShortName": "M Reidy",
+        "Organisation": {
+            "Id": "02aabf0e-87d8-eb11-a7ad-2818780da0cc",
+            "Name": "Caringbah Inn Cricket Club"
+        },
+        "Statistics": {
+            "Matches": 12,
+            "BattingInnings": 11,
+            "BattingAggregate": 121,
+            "BattingNotOuts": 0,
+            "BattingBallsFaced": 103,
+            "Batting50s": 0,
+            "Batting100s": 0,
+            "Batting0s": 3,
+            "BattingHighScore": 43,
+            "IsBattingHSNotOut": false,
+            "BattingAverage": 11,
+            "BattingStrikeRate": 117.48,
+            "BattingFours": 6,
+            "BattingSixes": 0,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "b7e57ecc-b74f-4567-9777-2c81c253e3d2",
+        "Name": "Sanders, Jarrod",
+        "ShortName": "J Sanders",
+        "Organisation": {
+            "Id": "02aabf0e-87d8-eb11-a7ad-2818780da0cc",
+            "Name": "Caringbah Inn Cricket Club"
+        },
+        "Statistics": {
+            "Matches": 11,
+            "BattingInnings": 7,
+            "BattingAggregate": 119,
+            "BattingNotOuts": 2,
+            "BattingBallsFaced": 54,
+            "Batting50s": 1,
+            "Batting100s": 0,
+            "Batting0s": 1,
+            "BattingHighScore": 58,
+            "IsBattingHSNotOut": true,
+            "BattingAverage": 23.8,
+            "BattingStrikeRate": 220.37,
+            "BattingFours": 4,
+            "BattingSixes": 0,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "9cd8eb1f-8dce-400a-825d-4b68f9c6c12f",
+        "Name": "Sheakey, Steven",
+        "ShortName": "S Sheakey",
+        "Organisation": {
+            "Id": "02aabf0e-87d8-eb11-a7ad-2818780da0cc",
+            "Name": "Caringbah Inn Cricket Club"
+        },
+        "Statistics": {
+            "Matches": 5,
+            "BattingInnings": 5,
+            "BattingAggregate": 117,
+            "BattingNotOuts": 2,
+            "BattingBallsFaced": 0,
+            "Batting50s": 0,
+            "Batting100s": 0,
+            "Batting0s": 0,
+            "BattingHighScore": 39,
+            "IsBattingHSNotOut": true,
+            "BattingAverage": 39,
+            "BattingFours": 12,
+            "BattingSixes": 2,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "c52077ec-89d7-4173-8174-7ea6d1bed360",
+        "Name": "Harwin, Brody",
+        "ShortName": "B Harwin",
+        "Organisation": {
+            "Id": "ac467989-8ad8-eb11-a7ad-2818780da0cc",
+            "Name": "Como Jannali Cricket Club"
+        },
+        "Statistics": {
+            "Matches": 3,
+            "BattingInnings": 3,
+            "BattingAggregate": 110,
+            "BattingNotOuts": 1,
+            "BattingBallsFaced": 0,
+            "Batting50s": 1,
+            "Batting100s": 0,
+            "Batting0s": 0,
+            "BattingHighScore": 58,
+            "IsBattingHSNotOut": false,
+            "BattingAverage": 55,
+            "BattingFours": 3,
+            "BattingSixes": 0,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "b83b84ef-1647-4ec7-9a69-a3c8a3610d8f",
+        "Name": "Flanagan, Samuel",
+        "ShortName": "S Flanagan",
+        "Organisation": {
+            "Id": "6e0641c4-87d8-eb11-a7ad-2818780da0cc",
+            "Name": "Engadine Dragons Cricket Club"
+        },
+        "Statistics": {
+            "Matches": 11,
+            "BattingInnings": 8,
+            "BattingAggregate": 107,
+            "BattingNotOuts": 2,
+            "BattingBallsFaced": 41,
+            "Batting50s": 0,
+            "Batting100s": 0,
+            "Batting0s": 1,
+            "BattingHighScore": 42,
+            "IsBattingHSNotOut": true,
+            "BattingAverage": 17.83,
+            "BattingStrikeRate": 260.98,
+            "BattingFours": 13,
+            "BattingSixes": 0,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "8fd081ac-2aaf-43af-be65-5cba69b4af6e",
+        "Name": "Eadie, Mitch",
+        "ShortName": "M Eadie",
+        "Organisation": {
+            "Id": "70a127f0-86d8-eb11-a7ad-2818780da0cc",
+            "Name": "St Patrick's Cricket Club (Sutherland)"
+        },
+        "Statistics": {
+            "Matches": 11,
+            "BattingInnings": 6,
+            "BattingAggregate": 99,
+            "BattingNotOuts": 1,
+            "BattingBallsFaced": 88,
+            "Batting50s": 0,
+            "Batting100s": 0,
+            "Batting0s": 0,
+            "BattingHighScore": 36,
+            "IsBattingHSNotOut": true,
+            "BattingAverage": 19.8,
+            "BattingStrikeRate": 112.5,
+            "BattingFours": 6,
+            "BattingSixes": 1,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "b0f36249-5abf-4308-83fb-b7bc6c0d5b98",
+        "Name": "Silburn, Ryan",
+        "ShortName": "R Silburn",
+        "Organisation": {
+            "Id": "0a4939ca-87d8-eb11-a7ad-2818780da0cc",
+            "Name": "Illawong Menai Cricket Club"
+        },
+        "Statistics": {
+            "Matches": 9,
+            "BattingInnings": 7,
+            "BattingAggregate": 98,
+            "BattingNotOuts": 2,
+            "BattingBallsFaced": 41,
+            "Batting50s": 1,
+            "Batting100s": 0,
+            "Batting0s": 1,
+            "BattingHighScore": 58,
+            "IsBattingHSNotOut": true,
+            "BattingAverage": 19.6,
+            "BattingStrikeRate": 239.02,
+            "BattingFours": 10,
+            "BattingSixes": 0,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "9845d1f7-a69b-4b2a-b7ac-d74440e445e7",
+        "Name": "DeCelis, Max",
+        "ShortName": "M DeCelis",
+        "Organisation": {
+            "Id": "98448f94-86d8-eb11-a7ad-2818780da0cc",
+            "Name": "Bangor Barden Ridge Cricket Club"
+        },
+        "Statistics": {
+            "Matches": 5,
+            "BattingInnings": 6,
+            "BattingAggregate": 98,
+            "BattingNotOuts": 2,
+            "BattingBallsFaced": 123,
+            "Batting50s": 1,
+            "Batting100s": 0,
+            "Batting0s": 0,
+            "BattingHighScore": 74,
+            "IsBattingHSNotOut": true,
+            "BattingAverage": 24.5,
+            "BattingStrikeRate": 79.67,
+            "BattingFours": 7,
+            "BattingSixes": 0,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "2a693fdf-93c4-4fe8-b82b-4bb4e3d6072c",
+        "Name": "Cussen, Tyler",
+        "ShortName": "T Cussen",
+        "Organisation": {
+            "Id": "6e0641c4-87d8-eb11-a7ad-2818780da0cc",
+            "Name": "Engadine Dragons Cricket Club"
+        },
+        "Statistics": {
+            "Matches": 4,
+            "BattingInnings": 3,
+            "BattingAggregate": 97,
+            "BattingNotOuts": 0,
+            "BattingBallsFaced": 5,
+            "Batting50s": 1,
+            "Batting100s": 0,
+            "Batting0s": 0,
+            "BattingHighScore": 89,
+            "IsBattingHSNotOut": false,
+            "BattingAverage": 32.33,
+            "BattingStrikeRate": 1940,
+            "BattingFours": 14,
+            "BattingSixes": 0,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "6d69ca92-6115-4924-b1cf-39a024bd4515",
+        "Name": "Bell, Liam",
+        "ShortName": "L Bell",
+        "Organisation": {
+            "Id": "98448f94-86d8-eb11-a7ad-2818780da0cc",
+            "Name": "Bangor Barden Ridge Cricket Club"
+        },
+        "Statistics": {
+            "Matches": 8,
+            "BattingInnings": 6,
+            "BattingAggregate": 95,
+            "BattingNotOuts": 0,
+            "BattingBallsFaced": 139,
+            "Batting50s": 1,
+            "Batting100s": 0,
+            "Batting0s": 0,
+            "BattingHighScore": 58,
+            "IsBattingHSNotOut": false,
+            "BattingAverage": 15.83,
+            "BattingStrikeRate": 68.35,
+            "BattingFours": 10,
+            "BattingSixes": 0,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "56f549d3-14ad-404a-a4ff-4977a2cb4685",
+        "Name": "Corry, Samuel",
+        "ShortName": "S Corry",
+        "Organisation": {
+            "Id": "70a127f0-86d8-eb11-a7ad-2818780da0cc",
+            "Name": "St Patrick's Cricket Club (Sutherland)"
+        },
+        "Statistics": {
+            "Matches": 12,
+            "BattingInnings": 6,
+            "BattingAggregate": 94,
+            "BattingNotOuts": 1,
+            "BattingBallsFaced": 68,
+            "Batting50s": 0,
+            "Batting100s": 0,
+            "Batting0s": 1,
+            "BattingHighScore": 33,
+            "IsBattingHSNotOut": false,
+            "BattingAverage": 18.8,
+            "BattingStrikeRate": 138.24,
+            "BattingFours": 9,
+            "BattingSixes": 0,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "18006d45-ebb1-40d1-b384-2cb08461571c",
+        "Name": "Shean, Matthew",
+        "ShortName": "M Shean",
+        "Organisation": {
+            "Id": "02aabf0e-87d8-eb11-a7ad-2818780da0cc",
+            "Name": "Caringbah Inn Cricket Club"
+        },
+        "Statistics": {
+            "Matches": 6,
+            "BattingInnings": 4,
+            "BattingAggregate": 93,
+            "BattingNotOuts": 0,
+            "BattingBallsFaced": 88,
+            "Batting50s": 1,
+            "Batting100s": 0,
+            "Batting0s": 0,
+            "BattingHighScore": 54,
+            "IsBattingHSNotOut": false,
+            "BattingAverage": 23.25,
+            "BattingStrikeRate": 105.68,
+            "BattingFours": 9,
+            "BattingSixes": 0,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "09c5ac08-9cb0-46e0-9777-a324b89ed98c",
+        "Name": "Hillman, Campbell",
+        "ShortName": "C Hillman",
+        "Organisation": {
+            "Id": "02aabf0e-87d8-eb11-a7ad-2818780da0cc",
+            "Name": "Caringbah Inn Cricket Club"
+        },
+        "Statistics": {
+            "Matches": 5,
+            "BattingInnings": 4,
+            "BattingAggregate": 85,
+            "BattingNotOuts": 1,
+            "BattingBallsFaced": 62,
+            "Batting50s": 0,
+            "Batting100s": 0,
+            "Batting0s": 1,
+            "BattingHighScore": 46,
+            "IsBattingHSNotOut": false,
+            "BattingAverage": 28.33,
+            "BattingStrikeRate": 137.1,
+            "BattingFours": 9,
+            "BattingSixes": 1,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "1b0487fe-f070-40a5-9020-e005a4cb653a",
+        "Name": "Mangipudi, Abhi",
+        "ShortName": "A Mangipudi",
+        "Organisation": {
+            "Id": "70a127f0-86d8-eb11-a7ad-2818780da0cc",
+            "Name": "St Patrick's Cricket Club (Sutherland)"
+        },
+        "Statistics": {
+            "Matches": 10,
+            "BattingInnings": 6,
+            "BattingAggregate": 85,
+            "BattingNotOuts": 2,
+            "BattingBallsFaced": 29,
+            "Batting50s": 0,
+            "Batting100s": 0,
+            "Batting0s": 0,
+            "BattingHighScore": 39,
+            "IsBattingHSNotOut": false,
+            "BattingAverage": 21.25,
+            "BattingStrikeRate": 293.1,
+            "BattingFours": 13,
+            "BattingSixes": 1,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "8322c9bb-48d7-4a9c-bd6c-ec1d077cdf44",
+        "Name": "Hopper, Dane",
+        "ShortName": "D Hopper",
+        "Organisation": {
+            "Id": "02aabf0e-87d8-eb11-a7ad-2818780da0cc",
+            "Name": "Caringbah Inn Cricket Club"
+        },
+        "Statistics": {
+            "Matches": 12,
+            "BattingInnings": 10,
+            "BattingAggregate": 82,
+            "BattingNotOuts": 0,
+            "BattingBallsFaced": 64,
+            "Batting50s": 0,
+            "Batting100s": 0,
+            "Batting0s": 1,
+            "BattingHighScore": 22,
+            "IsBattingHSNotOut": false,
+            "BattingAverage": 8.2,
+            "BattingStrikeRate": 128.13,
+            "BattingFours": 11,
+            "BattingSixes": 0,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "2503a3df-b9f0-41eb-8c62-6a0e8713bf4b",
+        "Name": "Savins, Michael",
+        "ShortName": "M Savins",
+        "Organisation": {
+            "Id": "98448f94-86d8-eb11-a7ad-2818780da0cc",
+            "Name": "Bangor Barden Ridge Cricket Club"
+        },
+        "Statistics": {
+            "Matches": 8,
+            "BattingInnings": 5,
+            "BattingAggregate": 81,
+            "BattingNotOuts": 2,
+            "BattingBallsFaced": 84,
+            "Batting50s": 0,
+            "Batting100s": 0,
+            "Batting0s": 0,
+            "BattingHighScore": 33,
+            "IsBattingHSNotOut": false,
+            "BattingAverage": 27,
+            "BattingStrikeRate": 96.43,
+            "BattingFours": 10,
+            "BattingSixes": 2,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "3cee00e0-121b-4d7b-9f0e-c3d27c07a6fc",
+        "Name": "Chalker, Cameron",
+        "ShortName": "C Chalker",
+        "Organisation": {
+            "Id": "0a4939ca-87d8-eb11-a7ad-2818780da0cc",
+            "Name": "Illawong Menai Cricket Club"
+        },
+        "Statistics": {
+            "Matches": 12,
+            "BattingInnings": 9,
+            "BattingAggregate": 81,
+            "BattingNotOuts": 2,
+            "BattingBallsFaced": 8,
+            "Batting50s": 0,
+            "Batting100s": 0,
+            "Batting0s": 3,
+            "BattingHighScore": 32,
+            "IsBattingHSNotOut": false,
+            "BattingAverage": 11.57,
+            "BattingStrikeRate": 1012.5,
+            "BattingFours": 3,
+            "BattingSixes": 0,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "671240c8-7aed-4aca-9259-cce3eada59c1",
+        "Name": "Berry, Joshua",
+        "ShortName": "J Berry",
+        "Organisation": {
+            "Id": "6e0641c4-87d8-eb11-a7ad-2818780da0cc",
+            "Name": "Engadine Dragons Cricket Club"
+        },
+        "Statistics": {
+            "Matches": 9,
+            "BattingInnings": 7,
+            "BattingAggregate": 69,
+            "BattingNotOuts": 0,
+            "BattingBallsFaced": 7,
+            "Batting50s": 0,
+            "Batting100s": 0,
+            "Batting0s": 1,
+            "BattingHighScore": 21,
+            "IsBattingHSNotOut": false,
+            "BattingAverage": 9.86,
+            "BattingStrikeRate": 985.71,
+            "BattingFours": 7,
+            "BattingSixes": 2,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "097d151c-f87f-4d0f-a183-6cde7b5e6847",
+        "Name": "Rolfe, William",
+        "ShortName": "W Rolfe",
+        "Organisation": {
+            "Id": "70a127f0-86d8-eb11-a7ad-2818780da0cc",
+            "Name": "St Patrick's Cricket Club (Sutherland)"
+        },
+        "Statistics": {
+            "Matches": 8,
+            "BattingInnings": 4,
+            "BattingAggregate": 66,
+            "BattingNotOuts": 3,
+            "BattingBallsFaced": 23,
+            "Batting50s": 0,
+            "Batting100s": 0,
+            "Batting0s": 0,
+            "BattingHighScore": 30,
+            "IsBattingHSNotOut": true,
+            "BattingAverage": 66,
+            "BattingStrikeRate": 286.96,
+            "BattingFours": 5,
+            "BattingSixes": 1,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "39b545d0-33f7-45a8-84d6-b6c3584864bf",
+        "Name": "Blackburn, Mark",
+        "ShortName": "M Blackburn",
+        "Organisation": {
+            "Id": "ac467989-8ad8-eb11-a7ad-2818780da0cc",
+            "Name": "Como Jannali Cricket Club"
+        },
+        "Statistics": {
+            "Matches": 3,
+            "BattingInnings": 3,
+            "BattingAggregate": 66,
+            "BattingNotOuts": 0,
+            "BattingBallsFaced": 0,
+            "Batting50s": 0,
+            "Batting100s": 0,
+            "Batting0s": 0,
+            "BattingHighScore": 31,
+            "IsBattingHSNotOut": false,
+            "BattingAverage": 22,
+            "BattingFours": 7,
+            "BattingSixes": 0,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "4765ec1c-15dd-4499-9914-31aa086ea56c",
+        "Name": "Pascoe, Adam",
+        "ShortName": "A Pascoe",
+        "Organisation": {
+            "Id": "6e0641c4-87d8-eb11-a7ad-2818780da0cc",
+            "Name": "Engadine Dragons Cricket Club"
+        },
+        "Statistics": {
+            "Matches": 7,
+            "BattingInnings": 7,
+            "BattingAggregate": 63,
+            "BattingNotOuts": 2,
+            "BattingBallsFaced": 5,
+            "Batting50s": 0,
+            "Batting100s": 0,
+            "Batting0s": 0,
+            "BattingHighScore": 31,
+            "IsBattingHSNotOut": true,
+            "BattingAverage": 12.6,
+            "BattingStrikeRate": 1260,
+            "BattingFours": 6,
+            "BattingSixes": 0,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "3f998c12-9e53-40b6-95f3-76a6a62fa6f1",
+        "Name": "Murphy, Sean",
+        "ShortName": "S Murphy",
+        "Organisation": {
+            "Id": "70a127f0-86d8-eb11-a7ad-2818780da0cc",
+            "Name": "St Patrick's Cricket Club (Sutherland)"
+        },
+        "Statistics": {
+            "Matches": 10,
+            "BattingInnings": 5,
+            "BattingAggregate": 59,
+            "BattingNotOuts": 2,
+            "BattingBallsFaced": 39,
+            "Batting50s": 0,
+            "Batting100s": 0,
+            "Batting0s": 1,
+            "BattingHighScore": 23,
+            "IsBattingHSNotOut": false,
+            "BattingAverage": 19.67,
+            "BattingStrikeRate": 151.28,
+            "BattingFours": 5,
+            "BattingSixes": 1,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "8c39ddfb-231a-4bd1-80be-be8f8ad08c12",
+        "Name": "Berry, Tim",
+        "ShortName": "T Berry",
+        "Organisation": {
+            "Id": "6e0641c4-87d8-eb11-a7ad-2818780da0cc",
+            "Name": "Engadine Dragons Cricket Club"
+        },
+        "Statistics": {
+            "Matches": 4,
+            "BattingInnings": 3,
+            "BattingAggregate": 59,
+            "BattingNotOuts": 0,
+            "BattingBallsFaced": 0,
+            "Batting50s": 0,
+            "Batting100s": 0,
+            "Batting0s": 0,
+            "BattingHighScore": 38,
+            "IsBattingHSNotOut": false,
+            "BattingAverage": 19.67,
+            "BattingFours": 8,
+            "BattingSixes": 1,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "dfb429a1-8854-4c00-8509-19b4026970f3",
+        "Name": "Anderson, Peter",
+        "ShortName": "P Anderson",
+        "Organisation": {
+            "Id": "ac467989-8ad8-eb11-a7ad-2818780da0cc",
+            "Name": "Como Jannali Cricket Club"
+        },
+        "Statistics": {
+            "Matches": 3,
+            "BattingInnings": 3,
+            "BattingAggregate": 58,
+            "BattingNotOuts": 0,
+            "BattingBallsFaced": 0,
+            "Batting50s": 0,
+            "Batting100s": 0,
+            "Batting0s": 0,
+            "BattingHighScore": 28,
+            "IsBattingHSNotOut": false,
+            "BattingAverage": 19.33,
+            "BattingFours": 3,
+            "BattingSixes": 0,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "6808703f-fa4d-47ab-993c-10237365505e",
+        "Name": "Andrew, Tom",
+        "ShortName": "T Andrew",
+        "Organisation": {
+            "Id": "ac467989-8ad8-eb11-a7ad-2818780da0cc",
+            "Name": "Como Jannali Cricket Club"
+        },
+        "Statistics": {
+            "Matches": 3,
+            "BattingInnings": 4,
+            "BattingAggregate": 55,
+            "BattingNotOuts": 1,
+            "BattingBallsFaced": 0,
+            "Batting50s": 0,
+            "Batting100s": 0,
+            "Batting0s": 2,
+            "BattingHighScore": 38,
+            "IsBattingHSNotOut": false,
+            "BattingAverage": 18.33,
+            "BattingFours": 10,
+            "BattingSixes": 0,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "19de9ca9-1486-4cc1-9cca-6dc94c98e8af",
+        "Name": "Sheffield, Vaughn",
+        "ShortName": "V Sheffield",
+        "Organisation": {
+            "Id": "0a4939ca-87d8-eb11-a7ad-2818780da0cc",
+            "Name": "Illawong Menai Cricket Club"
+        },
+        "Statistics": {
+            "Matches": 12,
+            "BattingInnings": 6,
+            "BattingAggregate": 55,
+            "BattingNotOuts": 3,
+            "BattingBallsFaced": 53,
+            "Batting50s": 0,
+            "Batting100s": 0,
+            "Batting0s": 1,
+            "BattingHighScore": 31,
+            "IsBattingHSNotOut": true,
+            "BattingAverage": 18.33,
+            "BattingStrikeRate": 103.77,
+            "BattingFours": 7,
+            "BattingSixes": 0,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "5acbd3b6-a4a1-4623-aba9-1a7d979ceb1a",
+        "Name": "Holdstock, Brayden",
+        "ShortName": "B Holdstock",
+        "Organisation": {
+            "Id": "98448f94-86d8-eb11-a7ad-2818780da0cc",
+            "Name": "Bangor Barden Ridge Cricket Club"
+        },
+        "Statistics": {
+            "Matches": 8,
+            "BattingInnings": 8,
+            "BattingAggregate": 53,
+            "BattingNotOuts": 3,
+            "BattingBallsFaced": 96,
+            "Batting50s": 0,
+            "Batting100s": 0,
+            "Batting0s": 0,
+            "BattingHighScore": 18,
+            "IsBattingHSNotOut": false,
+            "BattingAverage": 10.6,
+            "BattingStrikeRate": 55.21,
+            "BattingFours": 5,
+            "BattingSixes": 0,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "41504e3c-e18b-4b26-8c67-1d84661a19d3",
+        "Name": "PALMER, BRETT",
+        "ShortName": "B PALMER",
+        "Organisation": {
+            "Id": "98448f94-86d8-eb11-a7ad-2818780da0cc",
+            "Name": "Bangor Barden Ridge Cricket Club"
+        },
+        "Statistics": {
+            "Matches": 11,
+            "BattingInnings": 7,
+            "BattingAggregate": 49,
+            "BattingNotOuts": 1,
+            "BattingBallsFaced": 103,
+            "Batting50s": 0,
+            "Batting100s": 0,
+            "Batting0s": 0,
+            "BattingHighScore": 19,
+            "IsBattingHSNotOut": false,
+            "BattingAverage": 8.17,
+            "BattingStrikeRate": 47.57,
+            "BattingFours": 3,
+            "BattingSixes": 0,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "bbca80f9-52ad-4968-b22d-df74bfd617fd",
+        "Name": "Campey, Anthony",
+        "ShortName": "A Campey",
+        "Organisation": {
+            "Id": "98448f94-86d8-eb11-a7ad-2818780da0cc",
+            "Name": "Bangor Barden Ridge Cricket Club"
+        },
+        "Statistics": {
+            "Matches": 10,
+            "BattingInnings": 7,
+            "BattingAggregate": 49,
+            "BattingNotOuts": 3,
+            "BattingBallsFaced": 78,
+            "Batting50s": 0,
+            "Batting100s": 0,
+            "Batting0s": 1,
+            "BattingHighScore": 23,
+            "IsBattingHSNotOut": false,
+            "BattingAverage": 12.25,
+            "BattingStrikeRate": 62.82,
+            "BattingFours": 7,
+            "BattingSixes": 0,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "0a9bfca7-566a-4de4-a117-ff1a0814c333",
+        "Name": "Spanhel, Brent",
+        "ShortName": "B Spanhel",
+        "Organisation": {
+            "Id": "0a4939ca-87d8-eb11-a7ad-2818780da0cc",
+            "Name": "Illawong Menai Cricket Club"
+        },
+        "Statistics": {
+            "Matches": 10,
+            "BattingInnings": 4,
+            "BattingAggregate": 49,
+            "BattingNotOuts": 0,
+            "BattingBallsFaced": 25,
+            "Batting50s": 0,
+            "Batting100s": 0,
+            "Batting0s": 0,
+            "BattingHighScore": 22,
+            "IsBattingHSNotOut": false,
+            "BattingAverage": 12.25,
+            "BattingStrikeRate": 196,
+            "BattingFours": 4,
+            "BattingSixes": 2,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "f0a37408-7117-4c0e-b171-137cd346afe2",
+        "Name": "Berry, Matthew",
+        "ShortName": "M Berry",
+        "Organisation": {
+            "Id": "6e0641c4-87d8-eb11-a7ad-2818780da0cc",
+            "Name": "Engadine Dragons Cricket Club"
+        },
+        "Statistics": {
+            "Matches": 8,
+            "BattingInnings": 5,
+            "BattingAggregate": 48,
+            "BattingNotOuts": 1,
+            "BattingBallsFaced": 24,
+            "Batting50s": 0,
+            "Batting100s": 0,
+            "Batting0s": 0,
+            "BattingHighScore": 15,
+            "IsBattingHSNotOut": true,
+            "BattingAverage": 12,
+            "BattingStrikeRate": 200,
+            "BattingFours": 4,
+            "BattingSixes": 0,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "d6c52a03-59f3-4345-b38c-4a208c955aac",
+        "Name": "Loudon, Brenton",
+        "ShortName": "B Loudon",
+        "Organisation": {
+            "Id": "6e0641c4-87d8-eb11-a7ad-2818780da0cc",
+            "Name": "Engadine Dragons Cricket Club"
+        },
+        "Statistics": {
+            "Matches": 4,
+            "BattingInnings": 3,
+            "BattingAggregate": 47,
+            "BattingNotOuts": 0,
+            "BattingBallsFaced": 24,
+            "Batting50s": 0,
+            "Batting100s": 0,
+            "Batting0s": 1,
+            "BattingHighScore": 34,
+            "IsBattingHSNotOut": false,
+            "BattingAverage": 15.67,
+            "BattingStrikeRate": 195.83,
+            "BattingFours": 4,
+            "BattingSixes": 2,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "a927c21b-058b-4d98-b2d0-7bb4c019bcd1",
+        "Name": "Leithhead, Alec",
+        "ShortName": "A Leithhead",
+        "Organisation": {
+            "Id": "02aabf0e-87d8-eb11-a7ad-2818780da0cc",
+            "Name": "Caringbah Inn Cricket Club"
+        },
+        "Statistics": {
+            "Matches": 12,
+            "BattingInnings": 7,
+            "BattingAggregate": 46,
+            "BattingNotOuts": 2,
+            "BattingBallsFaced": 17,
+            "Batting50s": 0,
+            "Batting100s": 0,
+            "Batting0s": 2,
+            "BattingHighScore": 19,
+            "IsBattingHSNotOut": false,
+            "BattingAverage": 9.2,
+            "BattingStrikeRate": 270.59,
+            "BattingFours": 4,
+            "BattingSixes": 0,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "5587bc53-67df-4245-b43c-9ac34941b93a",
+        "Name": "McGrath, Simon",
+        "ShortName": "S McGrath",
+        "Organisation": {
+            "Id": "ac467989-8ad8-eb11-a7ad-2818780da0cc",
+            "Name": "Como Jannali Cricket Club"
+        },
+        "Statistics": {
+            "Matches": 3,
+            "BattingInnings": 3,
+            "BattingAggregate": 45,
+            "BattingNotOuts": 1,
+            "BattingBallsFaced": 0,
+            "Batting50s": 0,
+            "Batting100s": 0,
+            "Batting0s": 0,
+            "BattingHighScore": 20,
+            "IsBattingHSNotOut": false,
+            "BattingAverage": 22.5,
+            "BattingFours": 1,
+            "BattingSixes": 0,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "342e3f84-74ac-4462-8a92-4688645c8310",
+        "Name": "Amjad, Muhammad Sufyan",
+        "ShortName": "M Amjad",
+        "Organisation": {
+            "Id": "02aabf0e-87d8-eb11-a7ad-2818780da0cc",
+            "Name": "Caringbah Inn Cricket Club"
+        },
+        "Statistics": {
+            "Matches": 5,
+            "BattingInnings": 4,
+            "BattingAggregate": 44,
+            "BattingNotOuts": 2,
+            "BattingBallsFaced": 0,
+            "Batting50s": 0,
+            "Batting100s": 0,
+            "Batting0s": 0,
+            "BattingHighScore": 18,
+            "IsBattingHSNotOut": false,
+            "BattingAverage": 22,
+            "BattingFours": 5,
+            "BattingSixes": 0,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "278ba007-032e-4a4b-a363-d980333e85e0",
+        "Name": "Wilson, Simon",
+        "ShortName": "S Wilson",
+        "Organisation": {
+            "Id": "ac467989-8ad8-eb11-a7ad-2818780da0cc",
+            "Name": "Como Jannali Cricket Club"
+        },
+        "Statistics": {
+            "Matches": 3,
+            "BattingInnings": 3,
+            "BattingAggregate": 44,
+            "BattingNotOuts": 0,
+            "BattingBallsFaced": 0,
+            "Batting50s": 0,
+            "Batting100s": 0,
+            "Batting0s": 1,
+            "BattingHighScore": 33,
+            "IsBattingHSNotOut": false,
+            "BattingAverage": 14.67,
+            "BattingFours": 3,
+            "BattingSixes": 0,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "9d349015-b65c-4cc7-90cf-97f048ab41cb",
+        "Name": "Pauling, Mitch",
+        "ShortName": "M Pauling",
+        "Organisation": {
+            "Id": "02aabf0e-87d8-eb11-a7ad-2818780da0cc",
+            "Name": "Caringbah Inn Cricket Club"
+        },
+        "Statistics": {
+            "Matches": 8,
+            "BattingInnings": 6,
+            "BattingAggregate": 40,
+            "BattingNotOuts": 0,
+            "BattingBallsFaced": 33,
+            "Batting50s": 0,
+            "Batting100s": 0,
+            "Batting0s": 1,
+            "BattingHighScore": 15,
+            "IsBattingHSNotOut": false,
+            "BattingAverage": 6.67,
+            "BattingStrikeRate": 121.21,
+            "BattingFours": 1,
+            "BattingSixes": 0,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "ccbaf891-6ca1-45d0-941e-568fadb7da52",
+        "Name": "Jones, Stephen",
+        "ShortName": "S Jones",
+        "Organisation": {
+            "Id": "ac467989-8ad8-eb11-a7ad-2818780da0cc",
+            "Name": "Como Jannali Cricket Club"
+        },
+        "Statistics": {
+            "Matches": 3,
+            "BattingInnings": 3,
+            "BattingAggregate": 38,
+            "BattingNotOuts": 0,
+            "BattingBallsFaced": 0,
+            "Batting50s": 0,
+            "Batting100s": 0,
+            "Batting0s": 0,
+            "BattingHighScore": 18,
+            "IsBattingHSNotOut": false,
+            "BattingAverage": 12.67,
+            "BattingFours": 2,
+            "BattingSixes": 0,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "1281e17d-bed6-48b7-bc90-61431d46c093",
+        "Name": "Fredericks, Andrew",
+        "ShortName": "A Fredericks",
+        "Organisation": {
+            "Id": "70a127f0-86d8-eb11-a7ad-2818780da0cc",
+            "Name": "St Patrick's Cricket Club (Sutherland)"
+        },
+        "Statistics": {
+            "Matches": 11,
+            "BattingInnings": 5,
+            "BattingAggregate": 37,
+            "BattingNotOuts": 2,
+            "BattingBallsFaced": 20,
+            "Batting50s": 0,
+            "Batting100s": 0,
+            "Batting0s": 1,
+            "BattingHighScore": 20,
+            "IsBattingHSNotOut": false,
+            "BattingAverage": 12.33,
+            "BattingStrikeRate": 185,
+            "BattingFours": 2,
+            "BattingSixes": 0,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "690b2343-e0a1-4e24-bdc0-bec4a5662637",
+        "Name": "Dalton, Troy",
+        "ShortName": "T Dalton",
+        "Organisation": {
+            "Id": "ac467989-8ad8-eb11-a7ad-2818780da0cc",
+            "Name": "Como Jannali Cricket Club"
+        },
+        "Statistics": {
+            "Matches": 3,
+            "BattingInnings": 4,
+            "BattingAggregate": 36,
+            "BattingNotOuts": 0,
+            "BattingBallsFaced": 0,
+            "Batting50s": 0,
+            "Batting100s": 0,
+            "Batting0s": 0,
+            "BattingHighScore": 23,
+            "IsBattingHSNotOut": false,
+            "BattingAverage": 9,
+            "BattingFours": 1,
+            "BattingSixes": 0,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "c876f842-351f-4d9e-a2ac-742e3f82dabc",
+        "Name": "Dwyer, Jeremy",
+        "ShortName": "J Dwyer",
+        "Organisation": {
+            "Id": "98448f94-86d8-eb11-a7ad-2818780da0cc",
+            "Name": "Bangor Barden Ridge Cricket Club"
+        },
+        "Statistics": {
+            "Matches": 8,
+            "BattingInnings": 6,
+            "BattingAggregate": 35,
+            "BattingNotOuts": 1,
+            "BattingBallsFaced": 73,
+            "Batting50s": 0,
+            "Batting100s": 0,
+            "Batting0s": 1,
+            "BattingHighScore": 12,
+            "IsBattingHSNotOut": false,
+            "BattingAverage": 7,
+            "BattingStrikeRate": 47.95,
+            "BattingFours": 2,
+            "BattingSixes": 0,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "e85123db-be1b-4a0a-96dc-d20023880bec",
+        "Name": "McClelland, Daniel",
+        "ShortName": "D McClelland",
+        "Organisation": {
+            "Id": "ac467989-8ad8-eb11-a7ad-2818780da0cc",
+            "Name": "Como Jannali Cricket Club"
+        },
+        "Statistics": {
+            "Matches": 3,
+            "BattingInnings": 3,
+            "BattingAggregate": 30,
+            "BattingNotOuts": 1,
+            "BattingBallsFaced": 0,
+            "Batting50s": 0,
+            "Batting100s": 0,
+            "Batting0s": 0,
+            "BattingHighScore": 17,
+            "IsBattingHSNotOut": false,
+            "BattingAverage": 15,
+            "BattingFours": 0,
+            "BattingSixes": 0,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "a71a10c5-7f70-4b17-96e7-38d61cf96642",
+        "Name": "Macready, Stephen",
+        "ShortName": "S Macready",
+        "Organisation": {
+            "Id": "ac467989-8ad8-eb11-a7ad-2818780da0cc",
+            "Name": "Como Jannali Cricket Club"
+        },
+        "Statistics": {
+            "Matches": 3,
+            "BattingInnings": 4,
+            "BattingAggregate": 27,
+            "BattingNotOuts": 0,
+            "BattingBallsFaced": 0,
+            "Batting50s": 0,
+            "Batting100s": 0,
+            "Batting0s": 0,
+            "BattingHighScore": 17,
+            "IsBattingHSNotOut": false,
+            "BattingAverage": 6.75,
+            "BattingFours": 2,
+            "BattingSixes": 0,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "baf4dc10-8067-42b3-850f-8ad49e93a4b7",
+        "Name": "Vinen, Robert",
+        "ShortName": "R Vinen",
+        "Organisation": {
+            "Id": "6e0641c4-87d8-eb11-a7ad-2818780da0cc",
+            "Name": "Engadine Dragons Cricket Club"
+        },
+        "Statistics": {
+            "Matches": 12,
+            "BattingInnings": 7,
+            "BattingAggregate": 25,
+            "BattingNotOuts": 1,
+            "BattingBallsFaced": 10,
+            "Batting50s": 0,
+            "Batting100s": 0,
+            "Batting0s": 2,
+            "BattingHighScore": 10,
+            "IsBattingHSNotOut": false,
+            "BattingAverage": 4.17,
+            "BattingStrikeRate": 250,
+            "BattingFours": 2,
+            "BattingSixes": 0,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "0e994b4c-a36f-4ef9-8a07-5d379915a0c5",
+        "Name": "Collier, Blake",
+        "ShortName": "B Collier",
+        "Organisation": {
+            "Id": "ac467989-8ad8-eb11-a7ad-2818780da0cc",
+            "Name": "Como Jannali Cricket Club"
+        },
+        "Statistics": {
+            "Matches": 3,
+            "BattingInnings": 4,
+            "BattingAggregate": 19,
+            "BattingNotOuts": 2,
+            "BattingBallsFaced": 0,
+            "Batting50s": 0,
+            "Batting100s": 0,
+            "Batting0s": 0,
+            "BattingHighScore": 11,
+            "IsBattingHSNotOut": false,
+            "BattingAverage": 9.5,
+            "BattingFours": 2,
+            "BattingSixes": 0,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "9135581c-24ed-426b-805e-8938dc77937d",
+        "Name": "Bailey, Lee",
+        "ShortName": "L Bailey",
+        "Organisation": {
+            "Id": "6e0641c4-87d8-eb11-a7ad-2818780da0cc",
+            "Name": "Engadine Dragons Cricket Club"
+        },
+        "Statistics": {
+            "Matches": 3,
+            "BattingInnings": 1,
+            "BattingAggregate": 16,
+            "BattingNotOuts": 0,
+            "BattingBallsFaced": 0,
+            "Batting50s": 0,
+            "Batting100s": 0,
+            "Batting0s": 0,
+            "BattingHighScore": 16,
+            "IsBattingHSNotOut": false,
+            "BattingAverage": 16,
+            "BattingFours": 2,
+            "BattingSixes": 0,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "e80520c0-3676-4dd7-8645-41fc404133a4",
+        "Name": "Fogden, Billy",
+        "ShortName": "B Fogden",
+        "Organisation": {
+            "Id": "70a127f0-86d8-eb11-a7ad-2818780da0cc",
+            "Name": "St Patrick's Cricket Club (Sutherland)"
+        },
+        "Statistics": {
+            "Matches": 8,
+            "BattingInnings": 2,
+            "BattingAggregate": 15,
+            "BattingNotOuts": 1,
+            "BattingBallsFaced": 29,
+            "Batting50s": 0,
+            "Batting100s": 0,
+            "Batting0s": 0,
+            "BattingHighScore": 10,
+            "IsBattingHSNotOut": false,
+            "BattingAverage": 15,
+            "BattingStrikeRate": 51.72,
+            "BattingFours": 1,
+            "BattingSixes": 0,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "5c72e2ac-8f0f-4f57-beec-2460ed10c9d4",
+        "Name": "Barnes, James",
+        "ShortName": "J Barnes",
+        "Organisation": {
+            "Id": "6e0641c4-87d8-eb11-a7ad-2818780da0cc",
+            "Name": "Engadine Dragons Cricket Club"
+        },
+        "Statistics": {
+            "Matches": 10,
+            "BattingInnings": 5,
+            "BattingAggregate": 14,
+            "BattingNotOuts": 0,
+            "BattingBallsFaced": 12,
+            "Batting50s": 0,
+            "Batting100s": 0,
+            "Batting0s": 3,
+            "BattingHighScore": 9,
+            "IsBattingHSNotOut": false,
+            "BattingAverage": 2.8,
+            "BattingStrikeRate": 116.67,
+            "BattingFours": 1,
+            "BattingSixes": 0,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "22b2df9c-005a-4cf0-a970-c416232de6ca",
+        "Name": "Russell, William",
+        "ShortName": "W Russell",
+        "Organisation": {
+            "Id": "6e0641c4-87d8-eb11-a7ad-2818780da0cc",
+            "Name": "Engadine Dragons Cricket Club"
+        },
+        "Statistics": {
+            "Matches": 2,
+            "BattingInnings": 1,
+            "BattingAggregate": 12,
+            "BattingNotOuts": 0,
+            "BattingBallsFaced": 0,
+            "Batting50s": 0,
+            "Batting100s": 0,
+            "Batting0s": 0,
+            "BattingHighScore": 12,
+            "IsBattingHSNotOut": false,
+            "BattingAverage": 12,
+            "BattingFours": 0,
+            "BattingSixes": 0,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "912a78e4-ebf6-45a0-b89e-225f5e64f1f0",
+        "Name": "Holland, David",
+        "ShortName": "D Holland",
+        "Organisation": {
+            "Id": "02aabf0e-87d8-eb11-a7ad-2818780da0cc",
+            "Name": "Caringbah Inn Cricket Club"
+        },
+        "Statistics": {
+            "Matches": 9,
+            "BattingInnings": 5,
+            "BattingAggregate": 10,
+            "BattingNotOuts": 5,
+            "BattingBallsFaced": 11,
+            "Batting50s": 0,
+            "Batting100s": 0,
+            "Batting0s": 0,
+            "BattingHighScore": 6,
+            "IsBattingHSNotOut": true,
+            "BattingStrikeRate": 90.91,
+            "BattingFours": 1,
+            "BattingSixes": 0,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "7335ea44-14e9-4a37-9a09-b4f9ffafda71",
+        "Name": "Hughes, Dylan",
+        "ShortName": "D Hughes",
+        "Organisation": {
+            "Id": "6e0641c4-87d8-eb11-a7ad-2818780da0cc",
+            "Name": "Engadine Dragons Cricket Club"
+        },
+        "Statistics": {
+            "Matches": 1,
+            "BattingInnings": 1,
+            "BattingAggregate": 10,
+            "BattingNotOuts": 1,
+            "BattingBallsFaced": 5,
+            "Batting50s": 0,
+            "Batting100s": 0,
+            "Batting0s": 0,
+            "BattingHighScore": 10,
+            "IsBattingHSNotOut": true,
+            "BattingStrikeRate": 200,
+            "BattingFours": 2,
+            "BattingSixes": 0,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "8c0a1edf-b240-43f9-9c49-5d38f46393ce",
+        "Name": "Kedwell, Paul",
+        "ShortName": "P Kedwell",
+        "Organisation": {
+            "Id": "98448f94-86d8-eb11-a7ad-2818780da0cc",
+            "Name": "Bangor Barden Ridge Cricket Club"
+        },
+        "Statistics": {
+            "Matches": 3,
+            "BattingInnings": 3,
+            "BattingAggregate": 9,
+            "BattingNotOuts": 0,
+            "BattingBallsFaced": 26,
+            "Batting50s": 0,
+            "Batting100s": 0,
+            "Batting0s": 0,
+            "BattingHighScore": 4,
+            "IsBattingHSNotOut": false,
+            "BattingAverage": 3,
+            "BattingStrikeRate": 34.62,
+            "BattingFours": 1,
+            "BattingSixes": 0,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "f8f9e857-0456-47dd-99a3-7554c3aea8e1",
+        "Name": "Cobley, Rob",
+        "ShortName": "R Cobley",
+        "Organisation": {
+            "Id": "6e0641c4-87d8-eb11-a7ad-2818780da0cc",
+            "Name": "Engadine Dragons Cricket Club"
+        },
+        "Statistics": {
+            "Matches": 1,
+            "BattingInnings": 1,
+            "BattingAggregate": 9,
+            "BattingNotOuts": 0,
+            "BattingBallsFaced": 0,
+            "Batting50s": 0,
+            "Batting100s": 0,
+            "Batting0s": 0,
+            "BattingHighScore": 9,
+            "IsBattingHSNotOut": false,
+            "BattingAverage": 9,
+            "BattingFours": 0,
+            "BattingSixes": 1,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "67140006-c140-40a7-aa92-2a3b6cf3dd04",
+        "Name": "Smith, Cameron",
+        "ShortName": "C Smith",
+        "Organisation": {
+            "Id": "98448f94-86d8-eb11-a7ad-2818780da0cc",
+            "Name": "Bangor Barden Ridge Cricket Club"
+        },
+        "Statistics": {
+            "Matches": 1,
+            "BattingInnings": 1,
+            "BattingAggregate": 8,
+            "BattingNotOuts": 0,
+            "BattingBallsFaced": 15,
+            "Batting50s": 0,
+            "Batting100s": 0,
+            "Batting0s": 0,
+            "BattingHighScore": 8,
+            "IsBattingHSNotOut": false,
+            "BattingAverage": 8,
+            "BattingStrikeRate": 53.33,
+            "BattingFours": 1,
+            "BattingSixes": 0,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "df5395a8-f731-48f3-ab9c-8673956aafda",
+        "Name": "Veart, Aaron",
+        "ShortName": "A Veart",
+        "Organisation": {
+            "Id": "0a4939ca-87d8-eb11-a7ad-2818780da0cc",
+            "Name": "Illawong Menai Cricket Club"
+        },
+        "Statistics": {
+            "Matches": 2,
+            "BattingInnings": 2,
+            "BattingAggregate": 8,
+            "BattingNotOuts": 0,
+            "BattingBallsFaced": 5,
+            "Batting50s": 0,
+            "Batting100s": 0,
+            "Batting0s": 0,
+            "BattingHighScore": 5,
+            "IsBattingHSNotOut": false,
+            "BattingAverage": 4,
+            "BattingStrikeRate": 160,
+            "BattingFours": 1,
+            "BattingSixes": 0,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "e9d207e0-a2ec-436c-8488-f4bda9df1d98",
+        "Name": "Chalker, Bryce",
+        "ShortName": "B Chalker",
+        "Organisation": {
+            "Id": "0a4939ca-87d8-eb11-a7ad-2818780da0cc",
+            "Name": "Illawong Menai Cricket Club"
+        },
+        "Statistics": {
+            "Matches": 3,
+            "BattingInnings": 2,
+            "BattingAggregate": 8,
+            "BattingNotOuts": 0,
+            "BattingBallsFaced": 11,
+            "Batting50s": 0,
+            "Batting100s": 0,
+            "Batting0s": 0,
+            "BattingHighScore": 5,
+            "IsBattingHSNotOut": false,
+            "BattingAverage": 4,
+            "BattingStrikeRate": 72.73,
+            "BattingFours": 0,
+            "BattingSixes": 0,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "cc4aef3c-dbdd-4e88-aaec-f6aee3b092c8",
+        "Name": "Maratheftis, Jon",
+        "ShortName": "J Maratheftis",
+        "Organisation": {
+            "Id": "0a4939ca-87d8-eb11-a7ad-2818780da0cc",
+            "Name": "Illawong Menai Cricket Club"
+        },
+        "Statistics": {
+            "Matches": 1,
+            "BattingInnings": 1,
+            "BattingAggregate": 7,
+            "BattingNotOuts": 0,
+            "BattingBallsFaced": 12,
+            "Batting50s": 0,
+            "Batting100s": 0,
+            "Batting0s": 0,
+            "BattingHighScore": 7,
+            "IsBattingHSNotOut": false,
+            "BattingAverage": 7,
+            "BattingStrikeRate": 58.33,
+            "BattingFours": 0,
+            "BattingSixes": 0,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "75e33b87-7773-4a78-a419-c4576643f4a1",
+        "Name": "Chora, Timothy",
+        "ShortName": "T Chora",
+        "Organisation": {
+            "Id": "70a127f0-86d8-eb11-a7ad-2818780da0cc",
+            "Name": "St Patrick's Cricket Club (Sutherland)"
+        },
+        "Statistics": {
+            "Matches": 9,
+            "BattingInnings": 3,
+            "BattingAggregate": 6,
+            "BattingNotOuts": 2,
+            "BattingBallsFaced": 14,
+            "Batting50s": 0,
+            "Batting100s": 0,
+            "Batting0s": 1,
+            "BattingHighScore": 4,
+            "IsBattingHSNotOut": true,
+            "BattingAverage": 6,
+            "BattingStrikeRate": 42.86,
+            "BattingFours": 0,
+            "BattingSixes": 0,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "88c2a03c-b277-44c8-9d24-609af25a1ba5",
+        "Name": "Miles, Jarrod",
+        "ShortName": "J Miles",
+        "Organisation": {
+            "Id": "02aabf0e-87d8-eb11-a7ad-2818780da0cc",
+            "Name": "Caringbah Inn Cricket Club"
+        },
+        "Statistics": {
+            "Matches": 10,
+            "BattingInnings": 2,
+            "BattingAggregate": 5,
+            "BattingNotOuts": 0,
+            "BattingBallsFaced": 6,
+            "Batting50s": 0,
+            "Batting100s": 0,
+            "Batting0s": 1,
+            "BattingHighScore": 5,
+            "IsBattingHSNotOut": false,
+            "BattingAverage": 2.5,
+            "BattingStrikeRate": 83.33,
+            "BattingFours": 0,
+            "BattingSixes": 0,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "a478afdc-2095-46be-8237-a678a72e887c",
+        "Name": "Sheshadri, Ravi Kumar",
+        "ShortName": "R Sheshadri",
+        "Organisation": {
+            "Id": "0a4939ca-87d8-eb11-a7ad-2818780da0cc",
+            "Name": "Illawong Menai Cricket Club"
+        },
+        "Statistics": {
+            "Matches": 1,
+            "BattingInnings": 1,
+            "BattingAggregate": 4,
+            "BattingNotOuts": 0,
+            "BattingBallsFaced": 0,
+            "Batting50s": 0,
+            "Batting100s": 0,
+            "Batting0s": 0,
+            "BattingHighScore": 4,
+            "IsBattingHSNotOut": false,
+            "BattingAverage": 4,
+            "BattingFours": 0,
+            "BattingSixes": 0,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "f9777982-e9b7-44be-b58b-ba302287628d",
+        "Name": "Raymond, Andrew",
+        "ShortName": "A Raymond",
+        "Organisation": {
+            "Id": "98448f94-86d8-eb11-a7ad-2818780da0cc",
+            "Name": "Bangor Barden Ridge Cricket Club"
+        },
+        "Statistics": {
+            "Matches": 2,
+            "BattingInnings": 2,
+            "BattingAggregate": 4,
+            "BattingNotOuts": 1,
+            "BattingBallsFaced": 11,
+            "Batting50s": 0,
+            "Batting100s": 0,
+            "Batting0s": 0,
+            "BattingHighScore": 3,
+            "IsBattingHSNotOut": false,
+            "BattingAverage": 4,
+            "BattingStrikeRate": 36.36,
+            "BattingFours": 0,
+            "BattingSixes": 0,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "ff50c189-c43f-415a-8d74-c2aa58d912da",
+        "Name": "Fogden, Paul",
+        "ShortName": "P Fogden",
+        "Organisation": {
+            "Id": "70a127f0-86d8-eb11-a7ad-2818780da0cc",
+            "Name": "St Patrick's Cricket Club (Sutherland)"
+        },
+        "Statistics": {
+            "Matches": 11,
+            "BattingInnings": 2,
+            "BattingAggregate": 4,
+            "BattingNotOuts": 0,
+            "BattingBallsFaced": 31,
+            "Batting50s": 0,
+            "Batting100s": 0,
+            "Batting0s": 0,
+            "BattingHighScore": 2,
+            "IsBattingHSNotOut": false,
+            "BattingAverage": 2,
+            "BattingStrikeRate": 12.9,
+            "BattingFours": 0,
+            "BattingSixes": 0,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "fc36e246-64a0-4961-8b2d-ee615cd80446",
+        "Name": "Dess, Patrick",
+        "ShortName": "P Dess",
+        "Organisation": {
+            "Id": "0a4939ca-87d8-eb11-a7ad-2818780da0cc",
+            "Name": "Illawong Menai Cricket Club"
+        },
+        "Statistics": {
+            "Matches": 11,
+            "BattingInnings": 7,
+            "BattingAggregate": 4,
+            "BattingNotOuts": 4,
+            "BattingBallsFaced": 5,
+            "Batting50s": 0,
+            "Batting100s": 0,
+            "Batting0s": 3,
+            "BattingHighScore": 2,
+            "IsBattingHSNotOut": true,
+            "BattingAverage": 1.33,
+            "BattingStrikeRate": 80,
+            "BattingFours": 0,
+            "BattingSixes": 0,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "b74b6e52-c5a5-436d-be62-5b926f4b87eb",
+        "Name": "Horsnell, Wade",
+        "ShortName": "W Horsnell",
+        "Organisation": {
+            "Id": "6e0641c4-87d8-eb11-a7ad-2818780da0cc",
+            "Name": "Engadine Dragons Cricket Club"
+        },
+        "Statistics": {
+            "Matches": 4,
+            "BattingInnings": 2,
+            "BattingAggregate": 1,
+            "BattingNotOuts": 1,
+            "BattingBallsFaced": 0,
+            "Batting50s": 0,
+            "Batting100s": 0,
+            "Batting0s": 0,
+            "BattingHighScore": 1,
+            "IsBattingHSNotOut": false,
+            "BattingAverage": 1,
+            "BattingFours": 0,
+            "BattingSixes": 0,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "3e5c03f1-2fdd-4b2a-8914-5f829a3d1854",
+        "Name": "Walker, Brad",
+        "ShortName": "B Walker",
+        "Organisation": {
+            "Id": "ac467989-8ad8-eb11-a7ad-2818780da0cc",
+            "Name": "Como Jannali Cricket Club"
+        },
+        "Statistics": {
+            "Matches": 2,
+            "BattingInnings": 1,
+            "BattingAggregate": 1,
+            "BattingNotOuts": 0,
+            "BattingBallsFaced": 0,
+            "Batting50s": 0,
+            "Batting100s": 0,
+            "Batting0s": 0,
+            "BattingHighScore": 1,
+            "IsBattingHSNotOut": false,
+            "BattingAverage": 1,
+            "BattingFours": 0,
+            "BattingSixes": 0,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "92ae16d2-dd46-4c6a-8bd9-67d2c30a3c48",
+        "Name": "Bray, Ben",
+        "ShortName": "B Bray",
+        "Organisation": {
+            "Id": "0a4939ca-87d8-eb11-a7ad-2818780da0cc",
+            "Name": "Illawong Menai Cricket Club"
+        },
+        "Statistics": {
+            "Matches": 1,
+            "BattingInnings": 1,
+            "BattingAggregate": 1,
+            "BattingNotOuts": 0,
+            "BattingBallsFaced": 0,
+            "Batting50s": 0,
+            "Batting100s": 0,
+            "Batting0s": 0,
+            "BattingHighScore": 1,
+            "IsBattingHSNotOut": false,
+            "BattingAverage": 1,
+            "BattingFours": 0,
+            "BattingSixes": 0,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "47a4ca71-ae0e-4a7c-940c-a7402c34b681",
+        "Name": "ALLEN, Taj",
+        "ShortName": "T ALLEN",
+        "Organisation": {
+            "Id": "6e0641c4-87d8-eb11-a7ad-2818780da0cc",
+            "Name": "Engadine Dragons Cricket Club"
+        },
+        "Statistics": {
+            "Matches": 1,
+            "BattingInnings": 1,
+            "BattingAggregate": 1,
+            "BattingNotOuts": 0,
+            "BattingBallsFaced": 0,
+            "Batting50s": 0,
+            "Batting100s": 0,
+            "Batting0s": 0,
+            "BattingHighScore": 1,
+            "IsBattingHSNotOut": false,
+            "BattingAverage": 1,
+            "BattingFours": 0,
+            "BattingSixes": 0,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "78b00de3-6471-40dc-bf19-b9728a5b373c",
+        "Name": "Chivers, Brett",
+        "ShortName": "B Chivers",
+        "Organisation": {
+            "Id": "02aabf0e-87d8-eb11-a7ad-2818780da0cc",
+            "Name": "Caringbah Inn Cricket Club"
+        },
+        "Statistics": {
+            "Matches": 1,
+            "BattingInnings": 1,
+            "BattingAggregate": 1,
+            "BattingNotOuts": 0,
+            "BattingBallsFaced": 5,
+            "Batting50s": 0,
+            "Batting100s": 0,
+            "Batting0s": 0,
+            "BattingHighScore": 1,
+            "IsBattingHSNotOut": false,
+            "BattingAverage": 1,
+            "BattingStrikeRate": 20,
+            "BattingFours": 0,
+            "BattingSixes": 0,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "14e21be3-3be5-40ee-a4ab-0192227740fe",
+        "Name": "Brown, Rhod",
+        "ShortName": "R Brown",
+        "Organisation": {
+            "Id": "ac467989-8ad8-eb11-a7ad-2818780da0cc",
+            "Name": "Como Jannali Cricket Club"
+        },
+        "Statistics": {
+            "Matches": 2,
+            "BattingInnings": 1,
+            "BattingAggregate": 0,
+            "BattingNotOuts": 0,
+            "BattingBallsFaced": 0,
+            "Batting50s": 0,
+            "Batting100s": 0,
+            "Batting0s": 1,
+            "BattingHighScore": 0,
+            "IsBattingHSNotOut": false,
+            "BattingAverage": 0,
+            "BattingFours": 0,
+            "BattingSixes": 0,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "dcfa4c56-6f79-4df7-9ff5-04a4b6a4a992",
+        "Name": "woodley, patrick",
+        "ShortName": "p woodley",
+        "Organisation": {
+            "Id": "70a127f0-86d8-eb11-a7ad-2818780da0cc",
+            "Name": "St Patrick's Cricket Club (Sutherland)"
+        },
+        "Statistics": {
+            "Matches": 1,
+            "BattingInnings": 0,
+            "BattingAggregate": 0,
+            "BattingNotOuts": 0,
+            "BattingBallsFaced": 0,
+            "Batting50s": 0,
+            "Batting100s": 0,
+            "Batting0s": 0,
+            "BattingHighScore": 0,
+            "IsBattingHSNotOut": false,
+            "BattingFours": 0,
+            "BattingSixes": 0,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "c9042436-64c4-47e9-b8c3-076addbfbfa2",
+        "Name": "Ang, Laurence",
+        "ShortName": "L Ang",
+        "Organisation": {
+            "Id": "98448f94-86d8-eb11-a7ad-2818780da0cc",
+            "Name": "Bangor Barden Ridge Cricket Club"
+        },
+        "Statistics": {
+            "Matches": 1,
+            "BattingInnings": 1,
+            "BattingAggregate": 0,
+            "BattingNotOuts": 0,
+            "BattingBallsFaced": 1,
+            "Batting50s": 0,
+            "Batting100s": 0,
+            "Batting0s": 1,
+            "BattingHighScore": 0,
+            "IsBattingHSNotOut": false,
+            "BattingAverage": 0,
+            "BattingStrikeRate": 0,
+            "BattingFours": 0,
+            "BattingSixes": 0,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "b7e7c58c-c91e-472f-9618-2d256d805e19",
+        "Name": "Walker, Stewart",
+        "ShortName": "S Walker",
+        "Organisation": {
+            "Id": "0a4939ca-87d8-eb11-a7ad-2818780da0cc",
+            "Name": "Illawong Menai Cricket Club"
+        },
+        "Statistics": {
+            "Matches": 3,
+            "BattingInnings": 1,
+            "BattingAggregate": 0,
+            "BattingNotOuts": 0,
+            "BattingBallsFaced": 1,
+            "Batting50s": 0,
+            "Batting100s": 0,
+            "Batting0s": 1,
+            "BattingHighScore": 0,
+            "IsBattingHSNotOut": false,
+            "BattingAverage": 0,
+            "BattingStrikeRate": 0,
+            "BattingFours": 0,
+            "BattingSixes": 0,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "f1e4b2c4-2300-4a56-86c2-6c72fc3dcbc5",
+        "Name": "Ungvary, Sebastian",
+        "ShortName": "S Ungvary",
+        "Organisation": {
+            "Id": "70a127f0-86d8-eb11-a7ad-2818780da0cc",
+            "Name": "St Patrick's Cricket Club (Sutherland)"
+        },
+        "Statistics": {
+            "Matches": 1,
+            "BattingInnings": 0,
+            "BattingAggregate": 0,
+            "BattingNotOuts": 0,
+            "BattingBallsFaced": 0,
+            "Batting50s": 0,
+            "Batting100s": 0,
+            "Batting0s": 0,
+            "BattingHighScore": 0,
+            "IsBattingHSNotOut": false,
+            "BattingFours": 0,
+            "BattingSixes": 0,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "3523e462-ef86-4a53-a2dd-6e53149bc035",
+        "Name": "Wright, Jonathan",
+        "ShortName": "J Wright",
+        "Organisation": {
+            "Id": "6e0641c4-87d8-eb11-a7ad-2818780da0cc",
+            "Name": "Engadine Dragons Cricket Club"
+        },
+        "Statistics": {
+            "Matches": 4,
+            "BattingInnings": 1,
+            "BattingAggregate": 0,
+            "BattingNotOuts": 0,
+            "BattingBallsFaced": 5,
+            "Batting50s": 0,
+            "Batting100s": 0,
+            "Batting0s": 1,
+            "BattingHighScore": 0,
+            "IsBattingHSNotOut": false,
+            "BattingAverage": 0,
+            "BattingStrikeRate": 0,
+            "BattingFours": 0,
+            "BattingSixes": 0,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "15f87048-2366-4a52-9057-72dbe8f5e0a8",
+        "Name": "Price, Graham",
+        "ShortName": "G Price",
+        "Organisation": {
+            "Id": "6e0641c4-87d8-eb11-a7ad-2818780da0cc",
+            "Name": "Engadine Dragons Cricket Club"
+        },
+        "Statistics": {
+            "Matches": 5,
+            "BattingInnings": 1,
+            "BattingAggregate": 0,
+            "BattingNotOuts": 1,
+            "BattingBallsFaced": 2,
+            "Batting50s": 0,
+            "Batting100s": 0,
+            "Batting0s": 0,
+            "BattingHighScore": 0,
+            "IsBattingHSNotOut": true,
+            "BattingStrikeRate": 0,
+            "BattingFours": 0,
+            "BattingSixes": 0,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "505aa98a-6b73-4eb9-9063-77503cf68098",
+        "Name": "Hilzinger, Kurt",
+        "ShortName": "K Hilzinger",
+        "Organisation": {
+            "Id": "ac467989-8ad8-eb11-a7ad-2818780da0cc",
+            "Name": "Como Jannali Cricket Club"
+        },
+        "Statistics": {
+            "Matches": 2,
+            "BattingInnings": 1,
+            "BattingAggregate": 0,
+            "BattingNotOuts": 0,
+            "BattingBallsFaced": 0,
+            "Batting50s": 0,
+            "Batting100s": 0,
+            "Batting0s": 1,
+            "BattingHighScore": 0,
+            "IsBattingHSNotOut": false,
+            "BattingAverage": 0,
+            "BattingFours": 0,
+            "BattingSixes": 0,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "9f0575af-3e1b-4469-99c6-9c2255bc72e2",
+        "Name": "Pallister, Ray",
+        "ShortName": "R Pallister",
+        "Organisation": {
+            "Id": "ac467989-8ad8-eb11-a7ad-2818780da0cc",
+            "Name": "Como Jannali Cricket Club"
+        },
+        "Statistics": {
+            "Matches": 0,
+            "BattingInnings": 0,
+            "BattingAggregate": 0,
+            "BattingNotOuts": 0,
+            "BattingBallsFaced": 0,
+            "Batting50s": 0,
+            "Batting100s": 0,
+            "Batting0s": 0,
+            "BattingHighScore": 0,
+            "IsBattingHSNotOut": false,
+            "BattingFours": 0,
+            "BattingSixes": 0,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "f0f0adea-a19b-42c6-8e3b-b094c1ec8945",
+        "Name": "Blackburn, Leo",
+        "ShortName": "L Blackburn",
+        "Organisation": {
+            "Id": "ac467989-8ad8-eb11-a7ad-2818780da0cc",
+            "Name": "Como Jannali Cricket Club"
+        },
+        "Statistics": {
+            "Matches": 2,
+            "BattingInnings": 2,
+            "BattingAggregate": 0,
+            "BattingNotOuts": 0,
+            "BattingBallsFaced": 0,
+            "Batting50s": 0,
+            "Batting100s": 0,
+            "Batting0s": 2,
+            "BattingHighScore": 0,
+            "IsBattingHSNotOut": false,
+            "BattingAverage": 0,
+            "BattingFours": 0,
+            "BattingSixes": 0,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "2b0e4324-0452-4cef-b994-d1ca5cbfcc67",
+        "Name": "Kiyani, Hassan",
+        "ShortName": "H Kiyani",
+        "Organisation": {
+            "Id": "98448f94-86d8-eb11-a7ad-2818780da0cc",
+            "Name": "Bangor Barden Ridge Cricket Club"
+        },
+        "Statistics": {
+            "Matches": 1,
+            "BattingInnings": 1,
+            "BattingAggregate": 0,
+            "BattingNotOuts": 0,
+            "BattingBallsFaced": 6,
+            "Batting50s": 0,
+            "Batting100s": 0,
+            "Batting0s": 1,
+            "BattingHighScore": 0,
+            "IsBattingHSNotOut": false,
+            "BattingAverage": 0,
+            "BattingStrikeRate": 0,
+            "BattingFours": 0,
+            "BattingSixes": 0,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "c54fb289-0ff1-4e48-904a-d709e932859e",
+        "Name": "Carlisle, Balin",
+        "ShortName": "B Carlisle",
+        "Organisation": {
+            "Id": "6e0641c4-87d8-eb11-a7ad-2818780da0cc",
+            "Name": "Engadine Dragons Cricket Club"
+        },
+        "Statistics": {
+            "Matches": 1,
+            "BattingInnings": 0,
+            "BattingAggregate": 0,
+            "BattingNotOuts": 0,
+            "BattingBallsFaced": 0,
+            "Batting50s": 0,
+            "Batting100s": 0,
+            "Batting0s": 0,
+            "BattingHighScore": 0,
+            "IsBattingHSNotOut": false,
+            "BattingFours": 0,
+            "BattingSixes": 0,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "4f8bc2f1-b27c-433b-b40e-e65f643fb3bf",
+        "Name": "Glynn Baker, Hugh",
+        "ShortName": "H Glynn Baker",
+        "Organisation": {
+            "Id": "0a4939ca-87d8-eb11-a7ad-2818780da0cc",
+            "Name": "Illawong Menai Cricket Club"
+        },
+        "Statistics": {
+            "Matches": 1,
+            "BattingInnings": 0,
+            "BattingAggregate": 0,
+            "BattingNotOuts": 0,
+            "BattingBallsFaced": 0,
+            "Batting50s": 0,
+            "Batting100s": 0,
+            "Batting0s": 0,
+            "BattingHighScore": 0,
+            "IsBattingHSNotOut": false,
+            "BattingFours": 0,
+            "BattingSixes": 0,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "bc7cdc80-cb50-4f84-8666-f245126037d5",
+        "Name": "Taplin, Michael",
+        "ShortName": "M Taplin",
+        "Organisation": {
+            "Id": "02aabf0e-87d8-eb11-a7ad-2818780da0cc",
+            "Name": "Caringbah Inn Cricket Club"
+        },
+        "Statistics": {
+            "Matches": 1,
+            "BattingInnings": 0,
+            "BattingAggregate": 0,
+            "BattingNotOuts": 0,
+            "BattingBallsFaced": 0,
+            "Batting50s": 0,
+            "Batting100s": 0,
+            "Batting0s": 0,
+            "BattingHighScore": 0,
+            "IsBattingHSNotOut": false,
+            "BattingFours": 0,
+            "BattingSixes": 0,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "dc6caa2f-f1d7-40b4-bc68-f32cfc28f5fc",
+        "Name": "Watson, Evan",
+        "ShortName": "E Watson",
+        "Organisation": {
+            "Id": "0a4939ca-87d8-eb11-a7ad-2818780da0cc",
+            "Name": "Illawong Menai Cricket Club"
+        },
+        "Statistics": {
+            "Matches": 1,
+            "BattingInnings": 0,
+            "BattingAggregate": 0,
+            "BattingNotOuts": 0,
+            "BattingBallsFaced": 0,
+            "Batting50s": 0,
+            "Batting100s": 0,
+            "Batting0s": 0,
+            "BattingHighScore": 0,
+            "IsBattingHSNotOut": false,
+            "BattingFours": 0,
+            "BattingSixes": 0,
+            "BattingMinutes": 0
+        }
+    },
+    {
+        "Id": "e552c41b-e1e6-4f4a-8bef-fb253e3bee93",
+        "Name": "Bayliss, Todd",
+        "ShortName": "T Bayliss",
+        "Organisation": {
+            "Id": "ac467989-8ad8-eb11-a7ad-2818780da0cc",
+            "Name": "Como Jannali Cricket Club"
+        },
+        "Statistics": {
+            "Matches": 1,
+            "BattingInnings": 0,
+            "BattingAggregate": 0,
+            "BattingNotOuts": 0,
+            "BattingBallsFaced": 0,
+            "Batting50s": 0,
+            "Batting100s": 0,
+            "Batting0s": 0,
+            "BattingHighScore": 0,
+            "IsBattingHSNotOut": false,
+            "BattingFours": 0,
+            "BattingSixes": 0,
+            "BattingMinutes": 0
+        }
+    }
+]
