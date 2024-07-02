@@ -87,52 +87,57 @@ combined_df = pd.merge(combined_df, fielding_df, on=['player_id', 'player_name',
 
 # Calculate a combined score for each player
 # Adjust the weights based on their importance
-# weights = {
-#     'BattingAggregate': 0.05,
-#     'BattingNotOuts': 1,
-#     'Batting50s': 1,
-#     'Batting100s': 2,
-#     'BowlingWickets': 1,
-#     'BowlingMaidens': 0.25,
-#     'Bowling5WIs': 2,
-#     'FieldingTotalCatches': 1,
-#     'FieldingRunOuts': 1,
-#     'FieldingStumpings': 1
-# }
-
 weights = {
     'BattingAggregate': 0.1,
-    'BattingNotOuts': 0.5,
-    'Batting50s': 1,
-    'Batting100s': 1,
+    #'BattingNotOuts': 0.5,
+    #'Batting50s': 1,
+    #'Batting100s': 1,
     'BowlingWickets': 1,
-    'BowlingMaidens': 0.5,
-    'Bowling5WIs': 2,
-    'FieldingTotalCatches': 1,
-    'FieldingRunOuts': 1,
+    #'BowlingMaidens': 0.5,
+    #'Bowling5WIs': 2,
+    'FieldingTotalCatches': 0.5,
+    'FieldingRunOuts': 0.5,
     'FieldingStumpings': 1
 }
 
 # Define the weights for each grade
 grade_weights = {
     'A1': 1.0,
-    'A2': 0.9,
-    'B1': 0.8,
-    'B2': 0.7,
-    'B3': 0.6,
-    'B4': 0.55,
-    'C1': 0.5
+    'A2': 0.95,
+    'B1': 0.85,
+    'B2': 0.8,
+    'B3': 0.75,
+    'B4': 0.7,
+    'C1': 0.6
 }
 
+###### Old weights
+# Calculate a combined score for each player
+# Adjust the weights based on their importance
+# weights = {
+#     'BattingAggregate': 0.1,
+#     'BattingNotOuts': 0.5,
+#     'Batting50s': 1,
+#     'Batting100s': 1,
+#     'BowlingWickets': 1,
+#     'BowlingMaidens': 0.5,
+#     'Bowling5WIs': 2,
+#     'FieldingTotalCatches': 1,
+#     'FieldingRunOuts': 1,
+#     'FieldingStumpings': 1
+# }
+
+# # Define the weights for each grade
 # grade_weights = {
 #     'A1': 1.0,
 #     'A2': 0.9,
-#     'B1': 0.7,
-#     'B2': 0.6,
-#     'B3': 0.55,
-#     'B4': 0.5,
-#     'C1': 0.45
+#     'B1': 0.8,
+#     'B2': 0.7,
+#     'B3': 0.6,
+#     'B4': 0.55,
+#     'C1': 0.5
 # }
+
 
 
 
@@ -149,12 +154,12 @@ combined_df['GradeWeight'] = combined_df['Grade'].map(grade_weights)
 # Calculate the combined score with grade weighting
 combined_df['combined_score'] = (
     combined_df['BattingAggregate'] * weights['BattingAggregate'] * combined_df['GradeWeight'] +
-    combined_df['BattingNotOuts'] * weights['BattingNotOuts'] * combined_df['GradeWeight'] +
-    combined_df['Batting50s'] * weights['Batting50s'] * combined_df['GradeWeight'] +
-    combined_df['Batting100s'] * weights['Batting100s'] * combined_df['GradeWeight'] +
+    # combined_df['BattingNotOuts'] * weights['BattingNotOuts'] * combined_df['GradeWeight'] +
+    # combined_df['Batting50s'] * weights['Batting50s'] * combined_df['GradeWeight'] +
+    # combined_df['Batting100s'] * weights['Batting100s'] * combined_df['GradeWeight'] +
     combined_df['BowlingWickets'] * weights['BowlingWickets'] * combined_df['GradeWeight'] +
-    combined_df['BowlingMaidens'] * weights['BowlingMaidens'] * combined_df['GradeWeight'] +
-    combined_df['Bowling5WIs'] * weights['Bowling5WIs'] * combined_df['GradeWeight'] +
+    # combined_df['BowlingMaidens'] * weights['BowlingMaidens'] * combined_df['GradeWeight'] +
+    # combined_df['Bowling5WIs'] * weights['Bowling5WIs'] * combined_df['GradeWeight'] +
     combined_df['FieldingTotalCatches'] * weights['FieldingTotalCatches'] * combined_df['GradeWeight'] +
     combined_df['FieldingRunOuts'] * weights['FieldingRunOuts'] * combined_df['GradeWeight'] +
     combined_df['FieldingStumpings'] * weights['FieldingStumpings'] * combined_df['GradeWeight']
