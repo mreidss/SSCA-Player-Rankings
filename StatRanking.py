@@ -25,6 +25,8 @@ grades = {
     }
 }
 
+
+
 # Initialize empty lists to hold the stats
 all_batting_stats = []
 all_bowling_stats = []
@@ -229,7 +231,8 @@ def PrintCombinedRankOverAllYears():
     pivoted_df = pivoted_df.sort_values(by='rank',ascending=False)
 
     # Display the sorted DataFrame
-    print(pivoted_df[['rank', 'player_id', 'player_name', 'PlayerClub', '2022-2023', '2023-2024', 'average_combined_score']])
+    print(pivoted_df[['rank', 'player_name', 'PlayerClub', '2022-2023', '2023-2024', 'average_combined_score']])
+    #print(pivoted_df[['rank', 'player_id', 'player_name', 'PlayerClub', '2022-2023', '2023-2024', 'average_combined_score']])
 
 
 
@@ -244,7 +247,8 @@ PrintCombinedRankOverAllYears()
 
 
 
-
+# TODO -- Fix the club names combining because it is creating more than one row in the pivot table
+# TODO -- Investigate McMahon, Liam as he is printing twice with the same id and stats for the same yearss
 
 
 
