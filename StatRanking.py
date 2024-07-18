@@ -80,6 +80,11 @@ batting_df = batting_df.groupby(['player_id', 'player_name', 'year', 'Grade']).s
 bowling_df = bowling_df.groupby(['player_id', 'player_name', 'year', 'Grade']).sum().reset_index()  
 fielding_df = fielding_df.groupby(['player_id', 'player_name', 'year', 'Grade']).sum().reset_index()  
 
+# batting_df['PlayerClub'] = batting_df.groupby(['player_id', 'year'])['PlayerClub'].transform(lambda x: ','.join(x))
+# batting_df['PlayerClub'] = batting_df.groupby(['player_id', 'year'])['PlayerClub'].transform(lambda x: x.iloc[0])
+#batting_df['PlayerClub'] = batting_df.groupby(['player_id', 'year'])['PlayerClub'].transform(lambda x: next(iter(set(x))))
+
+
 # Merge the DataFrames on the player ID
 combined_df = pd.merge(batting_df, bowling_df, on=['player_id', 'player_name', 'year', 'Grade'], suffixes=('_bat', '_bowl'))
 combined_df = pd.merge(combined_df, fielding_df, on=['player_id', 'player_name', 'year', 'Grade'])
@@ -228,10 +233,15 @@ def PrintCombinedRankOverAllYears():
     pivoted_df['rank'] = pivoted_df['average_combined_score'].rank(ascending=False).astype(int)
 
     # Sort the DataFrame by the 'rank' column
-    pivoted_df = pivoted_df.sort_values(by='rank',ascending=False)
+    #####pivoted_df = pivoted_df.sort_values(by='rank',ascending=False)
+    pivoted_df = pivoted_df.sort_values(by='rank')
+
+    ### Print top 50
+    top_50 = pivoted_df.nlargest(50, 'average_combined_score')
+    print(top_50[['rank', 'player_name', 'PlayerClub', '2022-2023', '2023-2024', 'average_combined_score']])
 
     # Display the sorted DataFrame
-    print(pivoted_df[['rank', 'player_name', 'PlayerClub', '2022-2023', '2023-2024', 'average_combined_score']])
+    ###############print(pivoted_df[['rank', 'player_name', 'PlayerClub', '2022-2023', '2023-2024', 'average_combined_score']])
     #print(pivoted_df[['rank', 'player_id', 'player_name', 'PlayerClub', '2022-2023', '2023-2024', 'average_combined_score']])
 
 
