@@ -6,25 +6,78 @@ import re
 # Define the list of grades with their IDs
 grades = {
     '2022-2023': {
+        '1st': 'a24041d3-782a-45aa-bd30-967b7fc514b7',
+        '2nd': 'bdcf8810-24fb-4e2b-b80a-ca227506502d',
+        '3rd': 'e03d64ea-c735-4fcb-8975-43ec4f530d76',
+        '4th': 'df93397a-ca39-4b22-9cfb-44b6d8a23602',
+        '5th': '60043cd8-0205-4a88-8b4e-3998bc226238',
+        'GreenShield': '32bcb9f2-48dd-4b56-92ff-630b08250d9d',
         'A1': 'f3a5cd22-3e0f-4015-a83f-524041c02604',
         'A2': '45c5bdc7-7522-4b4f-b1fe-3cf6b0388fdc',
         'B1': '36d25d27-6f0e-46c7-b08b-32674e6d5072',
         'B2': '2d115353-0146-483e-b582-1366b6369f41',
         'B3': '5563b108-f19c-4a2f-9a0a-930ec645e11b',
         'B4': '4a3e16d1-ce1d-4632-b9e5-b198cd95f2bc',
-        'C1': 'ff9cd850-ae40-46b2-83f7-5123127804cc'
+        'C1': 'ff9cd850-ae40-46b2-83f7-5123127804cc',
+        '16A': '68dda557-1bd1-4e70-9351-7068cfa208a1',
+        '16B': '2f705d44-c11e-449b-8250-944c47de8406'
     },
     '2023-2024': {
+        '1st': '44e7ea73-36b0-4782-9380-71460944cb60',
+        '2nd': '43fbb17f-df24-4459-bb62-b685ca536acc',
+        '3rd': '847b49b7-ec93-4f11-bead-484a579615f8',
+        '4th': '128c0d3f-2fe2-40fe-9202-5b4564fe44a9',
+        '5th': '6609fb3e-ee3f-42a5-b1f3-a647432e5e3a',
+        'GreenShield': 'c86175dd-8cd0-4e7b-969e-0c90a61427ce',
+        'MetroCup': 'bc0a5589-88cc-459b-b8dd-60b32e0dcf5b',
         'A1': 'faac1044-0ab6-4ffa-875f-c3474c909a9a',
         'A2': '3dc5d900-292f-4c1a-8122-f315fa66edb7',
         'B1': 'eb7777d1-2a81-47ad-8859-3aec15022bb9',
         'B2': '67117794-a5f8-4767-b86b-9e9801a55269',
         'B3': 'a56c4725-d12c-4455-a559-f0b9d20adf1b',
         'B4': 'e334c797-d7ef-4f59-abf1-aa879772c8ab',
-        'C1': '7fafa153-8e28-43ce-bd24-272bf9b0a26a'
+        'B5': '14d12ef7-57db-4fcc-be09-7a8158d66df1',
+        'C1': '7fafa153-8e28-43ce-bd24-272bf9b0a26a',
+        '16A': '0e45acf1-98a1-4df8-9780-e469a4adbb70',
+        '16B': 'cbc93f76-2279-4437-a9c3-d1bdac72f593'
     }
 }
 
+# Define the weights for each grade
+grade_weights = {
+    '1st': 1.3,
+    '2nd': 1.25,
+    '3rd': 1.2,
+    '4th': 1.15,
+    '5th': 1.05,
+    'GreenShield': 1.0,
+    'MetroCup': 1.0,
+    'A1': 1.0,
+    'A2': 0.95,
+    'B1': 0.85,
+    'B2': 0.8,
+    'B3': 0.75,
+    'B4': 0.7,
+    'B5': 0.65,
+    'C1': 0.6,
+    '16A': 0.85,
+    '16B': 0.8
+}
+
+# Calculate a combined score for each player
+# Adjust the weights based on their importance
+weights = {
+    'BattingAggregate': 0.1,
+    #'BattingNotOuts': 0.5,
+    #'Batting50s': 1,
+    #'Batting100s': 1,
+    'BowlingWickets': 1,
+    #'BowlingMaidens': 0.5,
+    #'Bowling5WIs': 2,
+    'FieldingTotalCatches': 0.5,
+    'FieldingRunOuts': 0.5,
+    'FieldingStumpings': 1
+}
 
 
 # Initialize empty lists to hold the stats
@@ -93,31 +146,7 @@ combined_df = pd.merge(combined_df, fielding_df, on=['player_id', 'player_name',
 
 
 
-# Calculate a combined score for each player
-# Adjust the weights based on their importance
-weights = {
-    'BattingAggregate': 0.1,
-    #'BattingNotOuts': 0.5,
-    #'Batting50s': 1,
-    #'Batting100s': 1,
-    'BowlingWickets': 1,
-    #'BowlingMaidens': 0.5,
-    #'Bowling5WIs': 2,
-    'FieldingTotalCatches': 0.5,
-    'FieldingRunOuts': 0.5,
-    'FieldingStumpings': 1
-}
 
-# Define the weights for each grade
-grade_weights = {
-    'A1': 1.0,
-    'A2': 0.95,
-    'B1': 0.85,
-    'B2': 0.8,
-    'B3': 0.75,
-    'B4': 0.7,
-    'C1': 0.6
-}
 
 ###### Old weights
 # Calculate a combined score for each player
@@ -212,6 +241,9 @@ def PrintPlayerRankSeperateGrades(year):
     # Print the resulting DataFrame
     print(yearly_stats_df[['year', 'player_name', 'PlayerClub', 'Grade', 'BattingAggregate', 'BattingNotOuts', 'Batting50s', 'Batting100s', 'BowlingWickets', 'BowlingMaidens', 'Bowling5WIs', 'FieldingTotalCatches', 'FieldingRunOuts', 'FieldingStumpings', 'combined_score']])
 
+    # Export the resulting DataFrame to an Excel file
+    yearly_stats_df[['year', 'player_name', 'PlayerClub', 'Grade', 'BattingAggregate', 'BattingNotOuts', 'Batting50s', 'Batting100s', 'BowlingWickets', 'BowlingMaidens', 'Bowling5WIs', 'FieldingTotalCatches', 'FieldingRunOuts', 'FieldingStumpings', 'combined_score']].to_excel(f'PlayerStats_{year}.xlsx', index=False)
+
 
     # ##### Print Ranks over both years
 def PrintCombinedRankOverAllYears():
@@ -236,9 +268,16 @@ def PrintCombinedRankOverAllYears():
     #####pivoted_df = pivoted_df.sort_values(by='rank',ascending=False)
     pivoted_df = pivoted_df.sort_values(by='rank')
 
+    # Export the result to an Excel file
+    pivoted_df[['rank', 'player_name', 'PlayerClub', '2022-2023', '2023-2024', 'average_combined_score']].to_excel('player_ranks.xlsx', index=False)
+
+    # Print the result
+    print(pivoted_df[['rank', 'player_name', 'PlayerClub', '2022-2023', '2023-2024', 'average_combined_score']])
+
+
     ### Print top 50
-    top_50 = pivoted_df.nlargest(50, 'average_combined_score')
-    print(top_50[['rank', 'player_name', 'PlayerClub', '2022-2023', '2023-2024', 'average_combined_score']])
+    # # # # # # top_50 = pivoted_df.nlargest(50, 'average_combined_score')
+    # # # # # # print(top_50[['rank', 'player_name', 'PlayerClub', '2022-2023', '2023-2024', 'average_combined_score']])
 
     # Display the sorted DataFrame
     ###############print(pivoted_df[['rank', 'player_name', 'PlayerClub', '2022-2023', '2023-2024', 'average_combined_score']])
