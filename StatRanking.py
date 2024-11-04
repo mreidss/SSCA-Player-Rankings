@@ -148,6 +148,7 @@ combined_df = pd.merge(combined_df, fielding_df, on=['player_id', 'player_name',
 
 
 
+
 ###### Old weights
 # Calculate a combined score for each player
 # Adjust the weights based on their importance
@@ -203,12 +204,41 @@ combined_df['combined_score'] = (
 )
 
 
+print(combined_df)
+
+# # # Aggregate the statistics for players appearing in multiple grades
+# # aggregated_df = combined_df.groupby(['year', 'player_id', 'player_name', 'PlayerClub']).agg({
+# #     'Grade': lambda x: ', '.join(x),
+# #     'combined_score': 'sum'
+# # }).reset_index()
+
+#Aggregate the statistics for players appearing in multiple grades and multiple clubs
+# # aggregated_df = combined_df.groupby(['year', 'player_id', 'player_name']).agg({
+# #     'PlayerClub': lambda x: ', '.join(x),
+# #     'Grade': lambda x: ', '.join(x),
+# #     'combined_score': 'sum'
+# # }).reset_index()
+
+# Aggregate the statistics for players appearing in multiple grades and multiple clubs and don't repeat the clubs or grades if there are multiple
+aggregated_df = combined_df.groupby(['year', 'player_id', 'player_name']).agg({
+    'PlayerClub': lambda x: ', '.join(sorted(set(x))), 
+    'Grade': lambda x: ', '.join(sorted(set(x))), 
+    'combined_score': 'sum'
+}).reset_index()
+
+
+print(aggregated_df)
+
+# Rename the columns
+aggregated_df.columns = ['year', 'player_id', 'player_name', 'PlayerClub', 'Grades', 'combined_score']
+
+
+print(aggregated_df)
+
 # Aggregate the statistics for players appearing in multiple grades
-aggregated_df = combined_df.groupby(['year', 'player_id', 'player_name']).sum().reset_index()
+#aggregated_df = combined_df.groupby(['year', 'player_id', 'player_name']).sum().reset_index()
 
 
-
-#print(aggregated_df)
 
 
 
@@ -226,7 +256,7 @@ aggregated_df['rank'] = aggregated_df.groupby('year')['combined_score'].rank(asc
 
 
 # tell panda to print all rows
-pd.set_option('display.max_rows', None)
+#pd.set_option('display.max_rows', None)
 
 
 
@@ -251,7 +281,7 @@ def PrintCombinedRankOverAllYears():
     pivoted_df = aggregated_df.pivot_table(index=['player_id', 'player_name', 'PlayerClub'],
                                             columns='year',
                                             values='combined_score',
-                                            aggfunc=lambda x: ','.join(aggregated_df.loc[x.index, 'Grade']) + ' ' + str(round(x.values[0], 2)))
+                                            aggfunc=lambda x: ','.join(aggregated_df.loc[x.index, 'Grades']) + ' ' + str(round(x.values[0], 2)))
 
     # Reset the index and rename the columns
     pivoted_df = pivoted_df.reset_index()
@@ -285,14 +315,73 @@ def PrintCombinedRankOverAllYears():
 
 
 
+def PrintCombinedRankOverAllYearsFormated():
+    # Pivot the data to create a column for each year
+    pivoted_df = aggregated_df.pivot_table(index=['player_id', 'player_name', 'PlayerClub'],
+                                            columns='year',
+                                            values=['combined_score', 'Grades'],
+                                            aggfunc={'combined_score': 'mean', 'Grades': lambda x: ', '.join(x)})
+
+    # Reset the index and rename the columns
+    pivoted_df = pivoted_df.reset_index()
+    pivoted_df.columns = ['player_id', 'player_name', 'PlayerClub', '2022-2023_score', '2022-2023_grade', '2023-2024_score', '2023-2024_grade']
+
+    # Fill NaN values with an empty string
+    pivoted_df = pivoted_df.fillna('')
+
+    # make the scores numeric so they can be calculated as an average
+    pivoted_df['2022-2023_score'] = pd.to_numeric(pivoted_df['2022-2023_score'], errors='coerce')
+    pivoted_df['2023-2024_score'] = pd.to_numeric(pivoted_df['2023-2024_score'], errors='coerce')
+
+    # Add a rank column based on the average combined score
+    pivoted_df['average_combined_score'] = pivoted_df[['2022-2023_score', '2023-2024_score']].mean(axis=1)
+    pivoted_df['average_combined_score'] = pivoted_df['average_combined_score'].fillna(0)
+    pivoted_df['rank'] = pivoted_df['average_combined_score'].rank(ascending=False).astype(int)
+
+    # Sort the DataFrame by the 'rank' column
+    pivoted_df = pivoted_df.sort_values(by='rank')
+
+    # Create a new column that combines the score and grade for each year
+    # pivoted_df['2022-2023'] = pivoted_df.apply(lambda row: f"{row['2022-2023_grade']} {row['2022-2023_score']:.2f}", axis=1)
+    # pivoted_df['2023-2024'] = pivoted_df.apply(lambda row: f"{row['2023-2024_grade']} {row['2023-2024_score']:.2f}", axis=1)
+
+    # Export the result to an Excel file
+    pivoted_df[['player_id', 'rank', 'player_name', 'PlayerClub', '2022-2023_score', '2022-2023_grade', '2023-2024_score', '2023-2024_grade', 'average_combined_score']].to_excel('player_ranks.xlsx', index=False)
+
+    # Print the result
+    print(pivoted_df[['rank', 'player_name', 'PlayerClub', '2022-2023_score', '2022-2023_grade', '2023-2024_score', '2023-2024_grade', 'average_combined_score']])
+
+
 # Print player stats and ranks for one year with split grades
 #PrintPlayerRankSeperateGrades('2022-2023')
 #PrintPlayerRankSeperateGrades('2023-2024')
 
 # Print player stats and ranks combined to find a list of top players SSCA
-PrintCombinedRankOverAllYears()
+#PrintCombinedRankOverAllYears()
+
+#PrintCombinedRankOverAllYearsFormated()
 
 
+
+# a more formated print function
+def print_combined_years(aggregated_df):
+    # Pivot the DataFrame to have separate columns for each year
+    pivoted_df = aggregated_df.pivot(index=['player_id', 'player_name', 'PlayerClub'], columns='year', values=['Grades', 'combined_score'])
+    
+    # Flatten the column MultiIndex
+    pivoted_df.columns = [f"{year}_{col}" for col, year in pivoted_df.columns]
+    
+    # Reset the index to include player_id, player_name, and PlayerClub as columns
+    pivoted_df = pivoted_df.reset_index()
+    
+    # Print the resulting DataFrame
+    print(pivoted_df)
+
+    # Write the DataFrame to an Excel file
+    pivoted_df.to_excel('player_ranks_Formated.xlsx', index=False)
+
+
+print_combined_years(aggregated_df)
 
 
 
